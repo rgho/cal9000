@@ -5,4 +5,4 @@ Inspired by 2001 Space Odyssey's HAL9000, CAL9000 is a Color Analysis Bot. Given
 
 ##Current Status
 
-CAL 9000 is in the middle of development! At may be broken at any given time. Currently working on a 3d bucket search of colors dataset to allow for blazing fast similar color detection!
+CAL 9000 is in the middle of development! May be broken at any given time. Currently working on a 3D bucket search of colors dataset to allow for blazing fast similar color detection!
