@@ -152,7 +152,7 @@ var colorsBuckets = function(imageData) {
 		colorCounts[closestColor] = colorCounts[closestColor] || 0; // VERY INTERESTING HOW THIS WORKS, REVIEW
 		colorCounts[closestColor] += 1;
 	};
-q
+
 	sortColors(colorCounts);
 	return colorCounts;
 };
@@ -164,6 +164,7 @@ var sortColors = function(colorCounts){
 	sortable.push([color, colorCounts[color]]);
 	sortable.sort(function(a, b) {return b[1] - a[1]});
 
+	
 	showDescription(sortable.slice(0,6));
 };
 
