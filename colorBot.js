@@ -6,6 +6,7 @@
 // figure out the realative sizes of each bucket, and choose the top 5 buckets.
 // https://github.com/Shushik/i-color
 
+
 // GET A REF TO THE DROPBOX AND IMG PREVIEW DOM ELEMENT
 var dropbox = document.getElementById("dropbox");
 var preview1 = document.getElementById("preview");
@@ -13,54 +14,61 @@ var preview1 = document.getElementById("preview");
 // http://translate.google.com/translate_tts?tl=en&q=Wow.%20What%20an%20incredible%20image!%20I%20see%20a%20lot%20of%20hot%20pink,%20tones%20of%20midnight%20blue!
 
 // init event handlers
-preview.addEventListener("onload", previewLoaded, false);
+preview.addEventListener("onload", previewLoaded, false); // LOOKS LIKE ITS NOT BEING TRIGGERED CURRENTLY
 dropbox.addEventListener("dragenter", dragEnter, false);
 dropbox.addEventListener("dragexit", dragExit, false);
 dropbox.addEventListener("dragover", dragOver, false);
 dropbox.addEventListener("drop", drop, false);
 
+
 // EVENTS 
-
-
 function previewLoaded(evt) {
 	alert("loaded");
-  preventEvent(evt);
-      // get the updated ref!
-
+	preventEvent(evt);
+    // get the updated ref!
 };
 
+function preventEvent(evt) {
+	// ALSO called a no op Handler (borrowing terminology from assemby)  
+	evt.stopPropagation();
+	evt.preventDefault();
+};
+
+// EVENTS TRIGGERED BY THE USER BRINGING A FILE INTO DROPBOX AREA
 function dragEnter(evt) {
-  preventEvent(evt);
-  document.getElementById("dropbox").style.color="Red";
+	preventEvent(evt);
+	document.getElementById("dropbox").style.color="Red";
 };
 
 function dragExit(evt) {
-  preventEvent(evt);
-  document.getElementById("dropbox").style.color="#BBB";
+	preventEvent(evt);
+	document.getElementById("dropbox").style.color="#BBB";
 };
 
 function dragOver(evt) {
-  preventEvent(evt);
+	preventEvent(evt);
 };
 
 function drop(evt) {
- 	preventEvent(evt);
+	preventEvent(evt);
  	// MAGIC HAPPENS IN THIS FUNCTION
  	// REVERT TO ORIGINAL COLOR
  	document.getElementById("dropbox").style.color="#BBB";
-	
+
  	// GRAB THE FILES FROM THE EVENT
-	var files = evt.dataTransfer.files;
-	var count = files.length;
+ 	var files = evt.dataTransfer.files;
+ 	var count = files.length;
 	// Only call the handler if 1 or more files was dropped.
 	if (count > 0) handleFiles(files);
 };
 
+
+// HANDLER THAT DEALS WITH FILES ADDED TO DROPBOX
 function handleFiles(files){
 	//GRAB JUST FIRST FILE
 	var file = files[0];
 	// SHOW PROGRESS MESSAGE
- 	document.getElementById("droplabel").innerHTML = "Processing " + file.name;
+	document.getElementById("droplabel").innerHTML = "Processing " + file.name;
 	
 	var reader = new FileReader();
 	// init the reader event handlers
@@ -69,36 +77,32 @@ function handleFiles(files){
 	reader.readAsDataURL(file);
 };
 
+// HANDER THAT IS TRIGGERED WHEN DROPPED IMAGE FINISHES LOADING.
 function handleReaderLoad(evt) {
 	// GET IMG TAG REF
-  	var img = document.getElementById("preview");
+	var img = document.getElementById("preview");
   	// FILL SRC WITH IMG DATA
-    img.src = evt.target.result;
+  	img.src = evt.target.result;
 
     // GET IMAGE
     img=document.getElementById("preview");
     // DRAW AN IMAGE
-  	draw_image(img, img.width,img.height);
-  	analyzeImage();
+    draw_image(img, img.width,img.height);
+    analyzeImage();
 
 };
 
-
+// DRAWS IMAGE ONTO A NEW CANVAS
 function draw_image(image, width, height) {
- 	var my_canvas = document.getElementById("my-canvas");
- 	my_canvas.height = height;
- 	my_canvas.width = width;
+	var my_canvas = document.getElementById("my-canvas");
+	my_canvas.height = height;
+	my_canvas.width = width;
 
- 	var my_canvas_context = my_canvas.getContext("2d");
- 	var image = document.getElementById("preview");
+	var my_canvas_context = my_canvas.getContext("2d");
+	var image = document.getElementById("preview");
 	my_canvas_context.drawImage(image,0,0);
 };
 
-function preventEvent(evt) {
-	// ALSO called a no op Handler (borrowing terminology from assemby)  
-  evt.stopPropagation();
-  evt.preventDefault();
-};
 
 function analyzeImage(){
 	var image_data = getPixelData();
@@ -106,15 +110,16 @@ function analyzeImage(){
 	//var he = rgbaValuesByPixel(5,5,5,5,imagePixels)
 };
 
-
+// GET PIXELS FROM CANVAS
 var getPixelData = function(){
 	var my_canvas = document.getElementById("my-canvas");
-  	var my_canvas_context = my_canvas.getContext("2d");
+	var my_canvas_context = my_canvas.getContext("2d");
 
 	var imgData=my_canvas_context.getImageData(0,0,my_canvas.width,my_canvas.height);
 	return imgData.data;
 };
 
+// CONVERTS DATASET OF HEX COLORS TO LAB
 var convertColorSetToLAB = function(colorSet){
 	var colorSetLab = {};
 	for (var color in colorSet) {
@@ -124,7 +129,7 @@ var convertColorSetToLAB = function(colorSet){
 };
 
 var mostSimilarColor = function(currentPixelLAB, colorSetLab){
-	var smallestDist = 10000;
+	var smallestDist = 10000; //sqrt(141072) = ?? 376// MAX POSSIBLE DISTANCE IN lab space = sqrt(2*(-128 - 128)^2 + (100-0)^2)
 	//var mostSimilar = '';
 	for (var color in colorSetLab) {
 		var checkedDist = perceptualColorDiff(currentPixelLAB, colorSetLab[color]);
@@ -136,17 +141,168 @@ var mostSimilarColor = function(currentPixelLAB, colorSetLab){
 	return mostSimilar;
 };
 
+var mostSimilarColorFast = function(currentPixelLAB, labColorSet){
+	var smallestDist = 10000; //sqrt(141072) = ?? 376// MAX POSSIBLE DISTANCE IN lab space = sqrt(2*(-128 - 128)^2 + (100-0)^2)
+	//var mostSimilar = '';
+	mostSimilar = undefined;
+	colorSetLab = allNearbyColors(currentPixelLAB, labColorSet);
+	for (var color in colorSetLab) {
+		var checkedDist = perceptualColorDiff(currentPixelLAB, colorSetLab[color]);
+		if (checkedDist < smallestDist) {
+			smallestDist = checkedDist;
+			mostSimilar = color;
+		};
+	};
+	return mostSimilar;
+};
+
+
+function cubeId(lab){
+	var cubeEdgeLen = getCubeEdgeLength();
+	var l = Math.floor(lab.l/cubeEdgeLen)*cubeEdgeLen;
+	var a = Math.floor(lab.a/cubeEdgeLen)*cubeEdgeLen;
+	var b = Math.floor(lab.b/cubeEdgeLen)*cubeEdgeLen;
+
+	return {l:l, a:a, b:b};
+}
+
+function labToString(lab) {
+	// FORCE THE COORDINATES INTO A STRING SO WE CAN USE IT AS AN INDEX FOR THE ARRAY
+	return lab.l + ','+ lab.a +',' + lab.b;
+}
+
+function getCubeEdgeLength(){
+	return 6;
+}
+
+function labColorSetPlacedInCubes(){
+	var cubeEdgeLen = getCubeEdgeLength();
+	var cubes = createAllCubes(0,100,-128,128,-128,128,cubeEdgeLen);
+	var colorSetLab = convertColorSetToLAB(colorPresets());
+	
+	for (var color in colorSetLab) {
+		var thisLAB = {}
+		thisLAB[color] = colorSetLab[color]
+		// ADD DESC TO COLOR
+		//thisLAB.desc = color;
+		var whichCube = cubeId(thisLAB[color], cubeEdgeLen);
+		whichCube = labToString(whichCube);
+		// FORCE THE COORDINATES INTO A STRING SO WE CAN USE IT AS AN INDEX FOR THE ARRAY
+		//whichCube = whichCube.l + ','+ whichCube.a +',' + whichCube.b;
+		// CRAZY ONE LINER TO CHECK IF cubes[whichCube] obj exitst, if not create it.
+		cubes[whichCube] = ( typeof cubes[whichCube] != 'undefined' && cubes[whichCube] instanceof Array ) ? cubes[whichCube] : []
+		cubes[whichCube].push(thisLAB);
+	}
+
+	return cubes;
+}
+
+// createAllCubes(0,100,-128,128,-128,128,10)
+function createAllCubes(minL,maxL,minA,maxA,minB,maxB,delta){
+	all = {};
+	ls = [];
+	as = [];
+	bs = [];
+
+	for (var l = minL; l < maxL; l+=delta) {
+		ls.push(l);
+	}
+
+	for (var a = minA; a < maxA; a+=delta) {
+		as.push(a);
+	}
+
+	for (var b = minB; b < maxB; b+=delta) {
+		bs.push(b);
+	}
+
+	for (var lVal in ls) {
+		for (var aVal in as) {
+			for (var bVal in bs) {
+				// FORCE THE COORDINATES INTO A STRING SO WE CAN USE IT AS AN INDEX FOR THE ARRAY
+				all[ls[lVal] + ','+ as[aVal] +',' + bs[bVal]] = [];
+
+			}
+		}
+		
+	}
+	return all;
+}
+
+
+
+function allNearbyColors(lab,labColorSet){
+	var cubeEdgeLen = getCubeEdgeLength();
+	//var whichCube = cubeId(lab);
+	var cubesIDs = allNearbyCubes(lab, cubeEdgeLen);
+	var nearbyColorSetLab = {};
+
+	for (index in cubesIDs) {
+		var colorsInThisCube = labColorSet[cubesIDs[index]];
+
+		if (colorsInThisCube != undefined){
+			for (index in colorsInThisCube){
+				colorObj = colorsInThisCube[index];
+				var keys = [];
+				for(var k in colorObj) keys.push(k);
+					colorName = keys[0]
+				nearbyColorSetLab[colorName] = colorsInThisCube[index][colorName]
+			}
+
+		} 		
+	}
+
+	return nearbyColorSetLab;
+}
+
+function allNearbyCubes(labcolor){
+	cubeEdgeLen = getCubeEdgeLength();
+	currentCube = cubeId(labcolor)
+	all = [];
+	ls = [];
+	as = [];
+	bs = [];
+
+
+	ls.push(currentCube.l + cubeEdgeLen);
+	ls.push(currentCube.l - cubeEdgeLen);
+	ls.push(currentCube.l);
+
+	as.push(currentCube.a + cubeEdgeLen);
+	as.push(currentCube.a - cubeEdgeLen );
+	as.push(currentCube.a);
+
+	bs.push(currentCube.b + cubeEdgeLen);
+	bs.push(currentCube.b - cubeEdgeLen);
+	bs.push(currentCube.b);
+
+
+	for (var lVal in ls) {
+		for (var aVal in as) {
+			for (var bVal in bs) {
+				// FORCE THE COORDINATES INTO A STRING SO WE CAN USE IT AS AN INDEX FOR THE ARRAY
+				all.push(ls[lVal] + ','+ as[aVal] +',' + bs[bVal]);
+
+			}
+		}
+		
+	}
+	return all;
+}
+
 
 var colorsBuckets = function(imageData) {
 	var colorCounts = {};
-	var colorSetLab = convertColorSetToLAB(colorPresets());
-
+	//var colorSetLab = convertColorSetToLAB(colorPresets());
+	var labColorSetInCubes = labColorSetPlacedInCubes();
 	// A FOR LOOP THAT GOES FOUR ITEMS AT A TIME
 	for (var i = 0 ; i < imageData.length; i+=4) {
 		// GRAB RGB VALS AND CONVER TO LAB
 		var currentPixelLAB = Color.convert({r:imageData[i], g:imageData[i+1], b:imageData[i+2]}, 'lab');
 		// NOW FIND THE BEST BUCKET FOR EACH
-		closestColor = mostSimilarColor(currentPixelLAB,colorSetLab);
+
+		var closestColor = mostSimilarColorFast(currentPixelLAB, labColorSetInCubes);
+		//var closestColor = mostSimilarColor(currentPixelLAB,colorSetLab);
 
 		// CHECK for existance of best bucket value
 		colorCounts[closestColor] = colorCounts[closestColor] || 0; // VERY INTERESTING HOW THIS WORKS, REVIEW
@@ -161,16 +317,16 @@ var colorsBuckets = function(imageData) {
 var sortColors = function(colorCounts){
 	var sortable = [];
 	for (var color in colorCounts)
-	sortable.push([color, colorCounts[color]]);
+		sortable.push([color, colorCounts[color]]);
 	sortable.sort(function(a, b) {return b[1] - a[1]});
 
-	
-	showDescription(sortable.slice(0,6));
+
+	showDescription(sortable.slice(0,9));
 };
 
 
 var showDescription = function(sortedColors) {
-	var text = "Wow, I see a whole lot of COLOR1 and COLOR2, strong tones of COLOR3, and even some COLOR4, COLOR5, and COLOR6.";
+	var text = "Wow, I see a whole lot of COLOR1 and COLOR2, strong tones of COLOR3, and even some COLOR4, COLOR5, and COLOR6, COLOR7, COLOR8, COLOR9";
 
 	// PLACE INTO 
 	text = text.replace("COLOR1",sortedColors[0][0]);
@@ -179,6 +335,9 @@ var showDescription = function(sortedColors) {
 	text = text.replace("COLOR4",sortedColors[3][0]);
 	text = text.replace("COLOR5",sortedColors[4][0]);
 	text = text.replace("COLOR6",sortedColors[5][0]);
+	text = text.replace("COLOR7",sortedColors[6][0]);
+	text = text.replace("COLOR8",sortedColors[7][0]);
+	text = text.replace("COLOR9",sortedColors[8][0]);
 	document.getElementById('desc').innerHTML = text;
 };
 
@@ -193,15 +352,15 @@ function colorPresets(){
 
 
 function draw_box() {
-  var my_canvas = document.getElementById("my-canvas");
-  var my_canvas_context = my_canvas.getContext("2d");
-  my_canvas_context.fillStyle="#ff69b4";
-  my_canvas_context.fillRect(0, 0, 5, 4);
+	var my_canvas = document.getElementById("my-canvas");
+	var my_canvas_context = my_canvas.getContext("2d");
+	my_canvas_context.fillStyle="#ff69b4";
+	my_canvas_context.fillRect(0, 0, 5, 4);
 
-  my_canvas_context.fillStyle="#32cd32";
-  my_canvas_context.fillRect(0, 0, 2, 2);
+	my_canvas_context.fillStyle="#32cd32";
+	my_canvas_context.fillRect(0, 0, 2, 2);
 
-  my_canvas_context.fillStyle="#2cabe2";
-  my_canvas_context.fillRect(10, 10, 30, 30);
+	my_canvas_context.fillStyle="#2cabe2";
+	my_canvas_context.fillRect(10, 10, 30, 30);
 };
 
