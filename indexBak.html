@@ -8,12 +8,11 @@
 
   <style>
   #dropbox {
-    width: 154px;
-    height: 450px;
-    background-image:url('img/cal9000.png');
-    /*border: 1px solid #DDD;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #DDD;
     -moz-border-radius: 8px;
-    -webkit-border-radius: 8px; */
+    -webkit-border-radius: 8px;
     background-color: #FFFFFF;
     text-align: center;
     color: #BBB;
@@ -34,8 +33,6 @@
 </head>
 
 <body>
-
-<!--
   <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
     <div class="container">
       <div class="navbar-header">
@@ -48,57 +45,49 @@
         <a class="navbar-brand" href="http://startbootstrap.com">CAL 9000</a>
       </div>
 
-
+      <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
           <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-      </div>
-    </div>
-  </nav> -->
-
-
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+  </nav>
 
   <div class="container">
     <div id="sound"></div>
-    
-
     <div class="row">
       <div class="col-lg-12">
-        <h1>CAL 9000</h1>
+        <p id="desc"></p>
       </div>
     </div>
-
-
     <div class="row">
       <div class="col-md-4">
-        <div id="dropbox"><span id="droplabel">.</span></div>
+        <div id="dropbox"><span id="droplabel">Drop file here...</span></div>
         <img id="preview" class="hidden" alt="[ preview will display here ]" />
-        <canvas id="my-hidden-canvas" class="hidden"></canvas>
-        
       </div>
 
-      <div class="col-md-4">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <p id="desc"></p>
-            <canvas id="my-canvas" width="30" height="30"></canvas>
-          </div>
-        </div>
+      <div class="col-md-8">
+        <canvas id="my-canvas" width="30" height="30"></canvas>
+         <canvas id="my-hidden-canvas" class="hidden"></canvas>
       </div>
-    </div><!-- /.container -->
+    </div>
+  </div><!-- /.container -->
 
-    <div class="container">
-      <footer>
-      </footer>
-    </div><!-- /.container -->
+  <div class="container">
+    <footer>
+    </footer>
+  </div><!-- /.container -->
 
-    <!-- javascript -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="colorBot.js"></script>
+  <!-- javascript -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/type-effect.js"></script>
+  <script src="colorBot.js"></script>
 
 
-  </body>
+</body>
 
-  </html>
+</html>
