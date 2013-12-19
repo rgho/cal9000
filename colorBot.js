@@ -199,15 +199,50 @@ var convertColorSetToLAB = function(colorSet){
 
 /// SAY STUFF
 
+var analyzer;
+var frequencyData;
+var shouldAnalyze = true;
+
 function playSound(soundURL){
   // http://stackoverflow.com/questions/10105063/how-to-play-a-notification-sound-on-websites 
   document.getElementById("sound").innerHTML = '<audio id="voice" autoplay="autoplay"><source src="' + soundURL + '" type="audio/mpeg" /><embed hidden="true" autostart="true" loop="false" src="' + soundURL + '" /></audio>';
-  var audio = document.getElementById("voice");
-  audio.addEventListener('canplaythrough', voiceLoaded, false);
+  // var audio = document.getElementById("voice");
+
+  var audioContext = new (window.AudioContext||window.webkitAudioContext)();
+  var request = new XMLHttpRequest();
+
+  var audioElement = document.getElementById("voice");
+
+  analyzer = audioContext.createAnalyser();
+  analyzer.fftSize = 64;
+  frequencyData = new Uint8Array(analyzer.frequencyBinCount);
+
+  audioElement.addEventListener("canplay", function() {
+    var source = audioContext.createMediaElementSource(this);
+    source.connect(analyzer);
+    analyzer.connect(audioContext.destination);
+  });
+
+  audioElement.addEventListener('ended', function() { shouldAnalyze = false; }, false);
+  audioElement.addEventListener('canplaythrough', voiceLoaded, false);
+  audioElement.addEventListener('playing', analyze, false);
+}
+
+var $intensity = $("#intensity");
+function analyze() {
+  analyzer.getByteFrequencyData(frequencyData);
+  var magnitude = 0;
+  for (var i = 0; i < frequencyData.length; i++) {
+    magnitude += frequencyData[i];
+  }
+  var opacity = 0.8 - (magnitude/frequencyData.length)/40;
+  $intensity.css({"opacity": opacity});
+  setTimeout(analyze, 33);
 }
 
 function voiceLoaded(){
   NProgress.done();
+  shouldAnalyze = true;
   showDescriptionEffect(desc[0]);
 }
 
