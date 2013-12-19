@@ -1,0 +1,2089 @@
+Toast|#9A6E61
+Pastel blue|#aec6cf
+Lust red|#e62020
+Blue Charcoal|#010D1A
+Avocado green|#888D65
+Mustard yellow|#ffba00
+Pickled Bean|#6E4826
+Capri blue|#00bfff
+Sundance|#C9B35B
+Military green|#363C0D
+Toledo Purple|#3A0020
+Dark electric blue|#536878
+Viridian Green|#678975
+Mulberry Wood Violet|#5C0536
+Shocking pink|#fc0fc0
+Barley|#A68B5B
+Chambray blue|#354E8C
+Shamrock green|#009e60
+Mariner blue|#286ACD
+Byzantine violet|#bd33a4
+French blue|#0072bb
+Ash grey|#b2beb5
+Cerulean Blue|#2A52BE
+Bright lavender|#bf94e4
+Dark chestnut|#986960
+Saltpan white|#F1F7F2
+Pastel violet|#cb99c9
+Burnt Sienna|#E97451
+Metallic Bronze|#49371B
+Medium purple|#9370db
+Deluge lavendar|#7563A8
+Lemon Chiffon|#FFFACD
+Frangipani Cream|#FFDEB3
+Patriarch Purple|#800080
+Lisbon Brown|#423921
+Red Oxide|#6E0902
+Russett Brown|#755A57
+Bondi Blue|#0095B6
+Cyan|#00ffff
+Gull Gray|#9DACB7
+Antique Bronze|#704A07
+Pipi white|#FEF4CC
+Mountain Purple|#9d81ba
+Screamin Green|#76ff7a
+Copper|#b87333
+Carmine pink|#eb4c42
+Cherry blossom pink|#ffb7c5
+Pale Gold|#eee8aa
+UFO Green|#3cd070
+Almond Frost|#907B71
+Blonde|#faf0be
+Milano Red|#B81104
+Windsor purple|#3C0878
+Titanium yellow|#eee600
+Periglacial Blue|#E1E6D6
+Siren Purple|#7A013A
+Geyser Blue|#D4DFE2
+Blue Ribbon|#0066FF
+Festival yellow|#FBE96C
+Soft red|#cb410b
+Terracotta|#E2725B
+Tapa Grey|#7B7874
+Jungle Green|#29AB87
+Moon Glow|#FCFEDA
+Cerise Pink|#de3163
+Electric crimson|#ff003f
+Charade Blue Gray|#292937
+Red Robin|#80341F
+Black Marlin|#3E2C1C
+Pelorous Blue|#3EABBF
+Blue Smoke|#748881
+Hacienda yellow|#98811B
+Pakistani green|#006600
+Amazon green|#3B7A57
+Soft mint|#ADE6C4
+Twitter Blue|#007aa5
+Navy Blue|#000080
+Dark taupe|#483c32
+Raspberry|#e30b5d
+Soft pink|#E4CFDE
+Key Lime |#BFC921
+Orchid Blossom Pink|#E79FC4
+Pine Tree green|#171F04
+Clover green|#384910
+Coquelicot red|#ff3800
+Peach Yellow|#FADFAD
+Willow Brook white|#DFECDA
+Old Brick|#901E1E
+Fallow|#c19a6b
+Regal Blue|#013F6A
+Cerulean|#007ba7
+Azure|#007fff
+Violet Eggplant|#991199
+Rust|#b7410e
+Dark green|#013220
+Narvik white|#EDF9F1
+Fluorescent pink|#ff1493
+Old gold|#cfb53b
+Snowy Mint|#D6FFDB
+MSU Green|#18453b
+Lavender Rose|#FBA0E3
+Ginger|#b06500
+Mojo red|#C04737
+Sorrell Brown|#CEB98F
+Wild Sand|#F4F4F4
+Ultramarine blue|#4166f5
+Medium turquoise|#48d1cc
+Tussock brown|#C5994B
+Cola|#3F2500
+Lime green|#32cd32
+Russet brown|#80461b
+Yale Blue|#0f4d92
+Hawaiian Tan|#9D5616
+Deep Teal|#003532
+Dogwood rose|#d71868
+Tenn orange|#CD5700
+Cod Gray|#0B0B0B
+Mint cream|#f5fffa
+Espresso|#612718
+Deep purple|#2C1632
+Blue Lagoon|#017987
+Sisal brown|#D3CBBA
+Amaranth|#e52b50
+Hunter Green|#161D10
+Cardinal red|#c41e3a
+Manatee grey|#979aaa
+Han purple|#5218fa
+Cinereous brown|#98817b
+Tractor red|#fd0e35
+Bamboo|#DA6304
+Chrome White|#E8F1D4
+Downy |#6FD0C5
+Salmon pink|#ff91a4
+Atomic tangerine|#ff9966
+Bright pink|#ff007f
+Persian orange|#d99058
+Blush|#de5d83
+Dazzling Rose|#FF33CC
+Corn yellow|#fbec5d
+Dark Fern|#0A480D
+Fresh Pear|#d1e231
+Treehouse brown|#3B2820
+Dark Cork|#40291D
+Crimson Red|#990000
+Flamenco|#FF7D07
+Solid Pink|#893843
+Dark pastel blue|#779ecb
+Clairvoyant purple|#480656
+Cocoa Bean|#481C1C
+Vogue indigo|#032B52
+Modest beige|#967117
+Foggy Gray|#CBCAB6
+Medium blue|#0000cd
+Suva Gray|#888387
+Cream Brulee|#FFE5A0
+Cinnabar|#e34234
+Persian Green|#00A693
+Tyrian purple|#66023c
+Light Caramel|#FFDDAF
+Slate Gray|#708090
+Chestnut Rose|#CD5C5C
+Chinook|#A8E3BD
+Soya Bean|#6A6051
+Bulgarian rose|#480607
+Hot magenta|#ff1dce
+Pearl Aqua|#88d8c0
+Foliage Green|#27504B
+Indigo Purple|#4b0082
+Sea green|#2e8b57
+Hazy white|#F6F7F7
+Dark slate blue|#483d8b
+Sundown|#FFB1B3
+Rich carmine|#d70040
+Buccaneer brown|#622F30
+Dust Storm grey|#E5CCC9
+Alabaster|#FAFAFA
+Porsche|#EAAE69
+Chenin yellow|#DFCD6F
+Biscay Blue|#1B3162
+Bright Red|#B10000
+Turquoise green|#a0d6b4
+Tahiti Gold|#E97C07
+Hurricane|#877C7B
+Feldgrau|#4d5d53
+Navajo white|#ffdead
+Dark lava|#483c32
+Dark cerulean|#08457e
+Smoky black|#100c08
+Granny Smith Apple|#a8e4a0
+Winter Hazel|#D5D195
+Cotton Seed|#C2BDB6
+Bitter Green|#868974
+Blizzard Blue|#ace5ee
+Eagle grey|#B6BAA4
+Wood Bark|#261105
+Harvard crimson|#c90016
+Light mustard|#ffdb58
+Dark pastel purple|#966fd6
+Orange peel|#ff9f00
+Dell green|#396413
+Dark candy apple red|#a40000
+Rose vale|#ab4e52
+Cloud|#C7C4BF
+Vista White|#FCF8F7
+Tufts Blue|#417dc1
+Limed Spruce|#394851
+Deep Sea Green|#095859
+Falcon grey|#7F626D
+Shadow beige|#8a795d
+Jacksons Purple|#20208D
+Roman Coffee|#795D4C
+Froly pink|#F57584
+Banana yellow|#ffe135
+Persian Pink|#F77FBE
+Burnt Orange|#CC5500
+Deep Forest Green|#182D09
+Heathered Gray|#B6B095
+Castro |#52001F
+Coral Reef|#C7BCA2
+Brown Tumbleweed|#37290E
+Persian blue|#1c39bb
+Paris White|#CADCD4
+Spanish White|#F7F2E1
+Fandango|#b53389
+Tuscan red|#66424d
+Dark pink|#e75480
+Dutch White|#FEF7DE
+Dull Lavender|#A899E6
+Kelp|#25311C
+Electric indigo|#6f00ff
+Topaz|#ffc87c
+Razzle dazzle rose|#ff33cc
+Zuccini|#044022
+Woodsmoke|#0C0D0F
+Light goldenrod yellow|#fafad2
+Soapstone white|#FFFBF9
+Regent Gray|#86949F
+Mabel blue|#D9F7FF
+Rouge|#A23B6C
+Sherpa Blue|#004950
+Jungle Mist|#B4CFD3
+Light blue|#add8e6
+Myrtle|#21421e
+Sugar Cane|#F9FFF6
+Blue|#0000ff
+Burning Sand|#D99376
+Wild blue yonder|#a2add0
+Nile Blue|#193751
+Pale silver|#c9c0bb
+Alizarin crimson|#e32636
+Sunlight yellow|#FFEC13
+Sandwisp|#F5E7A2
+Deep Fir|#002900
+Cabernet|#4D0A18
+Dark goldenrod|#b8860b
+Carolina blue|#99badd
+Light khaki|#f0e68c
+La Salle Green|#087830
+Moss green|#addfad
+Old mauve|#673147
+Christalle|#33036B
+Tower Gray|#A9BDBF
+Powder Ash|#BCC9C2
+Mauvelous|#ef98aa
+Aqua Haze|#EDF5F5
+Apricot Peach|#FBCEB1
+Dark Blue|#0000C8
+Emerald|#50c878
+Bleu de France|#318ce7
+Peridot|#e6e200
+Gray Chateau|#A2AAB3
+Lemon chiffon|#fffacd
+Dewdrop|#EAFFFE
+Dawn Pink|#F3E9E5
+Piggy Pink|#FDD7E4
+Pumice|#C2CAC4
+Aqua Forest|#5FA777
+Solitaire board|#FEF8E2
+Pewter|#96A8A1
+Royal Purple|#6B3FA0
+Gamboge|#e49b0f
+Turmeric|#CABB48
+Fawn|#e5aa70
+Bittersweet|#fe6f5e
+Silk|#BDB1A8
+Golden yellow|#ffdf00
+Medium violet red|#c71585
+Submarine|#BAC7C9
+Baby blue|#89cff0
+Mineral Green|#3F5D53
+Bottle Green|#093624
+Marigold|#B98D28
+Milan|#FAFFA4
+Corn Field yellow|#F8FACD
+International Orange|#FF4F00
+Fuel Yellow|#ECA927
+Livid Brown|#4D282E
+Rosewood|#65000b
+Light Olive|#9ab973
+Cornell Red|#b31b1b
+Alien Green|#66FF66
+Ripe Plum|#410056
+Candlelight|#FCD917
+Bitter Lemon|#CAE00D
+Skobeloff|#007474
+Razzmatazz|#e3256b
+Tropical rain forest|#00755e
+Rhino Grey|#2E3F62
+Kingfisher Daisy|#3E0480
+Jacarta purple|#3A2A6A
+Cognac|#9F381D
+Dark jungle green|#1a2421
+Canary|#ffff99
+Bay Leaf|#7DA98D
+Orchid White|#FFFDF3
+Pink pearl|#e7accf
+Quincy brown|#623F2D
+Rich black|#004040
+Old Lavender|#796878
+Pastel orange|#ffb347
+Driftwood brown|#AF8751
+Flax yellow|#eedc82
+Gum Leaf|#B6D3BF
+Pine Glade|#C7CD90
+Nature's green|#1E433C
+Carnelian|#b31b1b
+Harvest Gold|#da9100
+Medium spring|#c9dc87
+Golden brown|#C6A84B
+Pharlap|#A3807B
+Clay Creek|#8A8360
+White Pointer|#FEF8FF
+Bluewood|#314459
+Rasberry Jam|#A50B5E
+Medium aquamarine|#66ddaa
+East Bay Blue|#414C7D
+Stark White|#E5D7BD
+Karry|#FFEAD4
+Pistachio|#93c572
+Nutmeg|#81422C
+Wheatfield|#F3EDCF
+Blue Diamond|#380474
+Dark pastel red|#c23b22
+Cherub|#F8D9E9
+Flax Smoke|#7B8265
+Early Dawn|#FFF9E6
+Watusi|#FFDDCF
+Warm black|#004242
+Android Green|#a4c639
+Burnham|#002E20
+Aqua Deep|#014B43
+Chamoisee|#a0785a
+Deep Lime green|#B3C110
+Rainee|#B9C8AC
+Otter brown|#654321
+Seaweed|#1B2F11
+County Green|#01371A
+Racing green|#004225
+Graphite|#251607
+Orchid|#da70d6
+Mindaro|#E3F988
+Iron|#D4D7D9
+Fluorescent orange|#ffbf00
+Fuchsia Blue|#7A58C1
+Cherokee|#FCDA98
+Pine Cone|#6D5E54
+Drover|#FDF7AD
+Geebung|#D18F1B
+Wild Rice|#ECE090
+Merlin|#413C37
+Antique Brass|#C88A65
+Tawny|#cd5700
+Heavy Metal|#2B3228
+New Orleans|#F3D69D
+Carrot Orange|#ED9121
+Amour|#F9EAF3
+Zombie|#E4D69B
+Ironside Gray|#676662
+Soft Amber|#D1C6B4
+Frost|#EDF5DD
+Dark khaki|#bdb76b
+Dark gray|#a9a9a9
+Light yellow|#ffffed
+Wax Flower|#FFC0A8
+Deep Cerulean|#007BA7
+Tom Thumb green|#3F583B
+Delta|#A4A49D
+Heavy Heath|#6B2A14
+Electric ultramarine|#3f00ff
+Deep lilac|#9955bb
+Desert|#c19a6b
+Rock Spray|#BA450C
+Green Leaf|#436A0D
+Calypso|#31728D
+French beige|#a67b5b
+Blanched Almond|#ffebcd
+Muck|#2F270E
+Janna|#F4EBD3
+Green Blue|#1164b4
+Double Spanish White|#E6D7B9
+Hot pink|#ff69b4
+Locust|#A8AF8E
+Hampton|#E5D8AF
+Disco|#871550
+Copper Rust|#944747
+Sunset|#fad6a5
+Green Smoke|#A4AF6E
+Brink Pink|#FB607F
+Cafe Royale|#6F440C
+Bahama Blue|#026395
+Atomic Tangerine|#FF9966
+Green Mist|#CBD3B0
+Prairie Sand|#9A3820
+Taupe|#483c32
+Deep pink|#ff1493
+Mantle|#8B9C90
+Silver Sand|#BFC1C2
+Mauve|#e0b0ff
+Cotton candy|#ffbcd9
+Natural Gray|#8B8680
+Rose Fog|#E7BCB4
+Ecstasy orange|#FA7814
+Mountain Meadow|#30ba8f
+Royal azure|#0038a8
+Electric green|#00ff00
+Cold Turkey|#CEBABA
+Hit Gray|#A1ADB5
+Trinidad|#E64E03
+Snuff|#E2D8ED
+Gulf Stream|#80B3AE
+Peach|#ffe5b4
+Golden brown|#996515
+Peach Orange|#FFCC99
+Sangria|#92000A
+Jagged Ice|#C2E8E5
+Tea rose|#f4c2c2
+Celery|#B8C25D
+Kimberly|#736C9F
+Cerise pink|#ec3b83
+Blue Zodiac|#13264D
+Madang|#B7F0BE
+Earth yellow|#e1a95f
+Holly|#011D13
+Cardin Green|#01361C
+Sandrift|#AB917A
+Tacao|#EDB381
+Teal blue|#367588
+Seashell Peach|#FFF5EE
+Blue Whale|#042E4C
+Lavender gray|#c4c3d0
+Woodrush|#302A0F
+Jasmine|#f8de7e
+Mallard green|#233418
+Sunglow|#ffcc33
+Sand dune|#967117
+Ash|#C6C3B5
+Deep Koamaru|#1B127B
+Gallery white|#EFEFEF
+Blue Bell|#a2a2d0
+Ziggurat blue|#BFDBE2
+Kashmir Blue|#507096
+Flamingo|#F2552A
+Hemlock|#5E5D3B
+Blue Romance|#D2F6DE
+Dark orchid|#9932cc
+Chablis|#FFF4F3
+Anti-flash white|#f2f3f4
+Marshland|#0B0F08
+Lilac Bush|#9874D3
+Comet|#5C5D75
+Pale Canary|#FFFF99
+Prussian Blue|#003153
+Wild Watermelon|#fc6c85
+Bone|#e3dac9
+Paris Purple|#26056A
+Electric violet|#8f00ff
+Cactus|#587156
+Tumbleweed|#deaa88
+Nandor|#4B5D52
+Chardon|#FFF3F1
+Persian Red|#CC3333
+Mocha|#782D19
+Peach puff|#ffdab9
+Grandis|#FFD38C
+Mamba|#8E8190
+Rose Bud Cherry|#800B47
+Olive Drab|#6b8e23
+Cinnamon|#d2691e
+Slate green|#49796b
+Lola|#DFCFDB
+Fedora|#796A78
+Soft peach|#ECCDB9
+Fresh Eggplant|#990066
+Camouflage|#3C3910
+Finlandia|#556D56
+Zumthor white|#EDF6FF
+Gray Suit|#C1BECD
+Brick red|#cb4154
+Amethyst|#9966cc
+Dark tangerine|#ffa812
+Melon|#fdbcb4
+Beeswax|#FEF2C7
+Fringy Flower|#B1E2C1
+Paradiso|#317D82
+Ruddy pink|#e18e96
+Muddy Waters|#B78E5C
+Midnight Blue|#011635
+Tuatara grey|#363534
+Dark magenta|#8b008b
+Indian Khaki|#C3B091
+Old Copper|#724A2F
+Reno Sand|#A86515
+Dune grey|#383533
+Asparagus|#87a96b
+Sauvignon|#FFF5F3
+Bronzetone|#4D400F
+Starship|#ECF245
+Paris Daisy|#FFF46E
+Aquamarine Blue|#71D9E2
+Bronze|#cd7f32
+Antique white|#faebd7
+French Pass|#BDEDFD
+Light salmon|#ffa07a
+Rusty Nail|#86560A
+Danube|#6093D1
+Unmellow Yellow|#ffff66
+Woodland|#4D5328
+Texas Rose|#FFB555
+Resolution Blue|#002387
+Crail|#B95140
+Deep coffee|#704241
+Royal Blue|#4169E1
+Onahau|#CDF4FF
+Pale green|#98fb98
+Waterloo |#7B7C94
+Light green|#90ee90
+Tuft Peach|#FFDDCD
+Pink Grey|#816E71
+Outrageous Orange|#ff6e4a
+Bahia|#A5CB0C
+Deco|#D2DA97
+Rangoon Green|#1C1E13
+Deep Blue|#220878
+Aqua Island|#A1DAD7
+Akaroa Cream|#D4C4A8
+Purple Heart|#69359c
+Teal|#377475
+Equator|#E1BC64
+Green Waterloo|#101405
+Light green|#90ee90
+Tuft Peach|#FFDDCD
+Pink Grey|#816E71
+Outrageous Orange|#ff6e4a
+Bahia|#A5CB0C
+Deco|#D2DA97
+Rangoon Green|#1C1E13
+Deep Blue|#220878
+Aqua Island|#A1DAD7
+Akaroa Cream|#D4C4A8
+Purple Heart|#69359c
+Teal|#377475
+Equator orange|#E1BC64
+Green Waterloo|#101405
+Mute Pink|#D69188
+Aqua Squeeze|#E8F5F2
+Dodger Blue|#1E90FF
+Medium champagne|#f3e5ab
+Bombay Rain|#AFB1B8
+Riptide blue|#8BE6D8
+Tabasco|#A02712
+Regal|#4F1C70
+Lavender rose|#fba0e3
+Glacier|#80B3C4
+Pink Salmon|#FF91A4
+Scorpion Brown|#695F62
+Glade Green|#61845F
+Fair Pink|#FFEFEC
+Buttermilk|#FFF1B5
+Fog|#D7D0FF
+Camouflage green|#78866b
+Carnation|#F95A61
+Bright green|#66ff00
+Fiord|#405169
+Gravel|#4A444B
+Scarlett|#950015
+Ghost white|#f8f8ff
+Punga|#4D3D14
+Yellow green|#9acd32
+Light Rum|#796989
+Light Wisteria|#C9A0DC
+Royal Heath|#AB3472
+Supernova yellow|#FFC901
+Lemon Yellow|#fff44f
+Punch|#DC4333
+Oregon|#9B4703
+Thatch|#B69D98
+Jungle green|#29ab87
+Salt Box|#685E6E
+Dusty Gray|#A8989B
+Wistful|#A4A6D3
+Chetwode Blue|#8581D9
+Rich Gold|#A85307
+Brass|#b5a642
+Pumpkin|#ff7518
+Spring Rain|#ACCBB1
+Night Rider|#1F120F
+Electric blue|#7df9ff
+French Gray|#BDBDC6
+White Rock|#EAE8D4
+Klein Blue|#002fa7
+Persian red|#cc3333
+Rice Flower|#EEFFE2
+Old Rose|#C08081
+Smalt Blue|#51808F
+Lionskin|#c19a6b
+Japanese Laurel|#0A6906
+Chalet Green|#516E3D
+Dollar bill|#85bb65
+Yukon Gold|#7B6608
+Sepia Skin|#9E5B40
+Tropical Rain Forest|#00755E
+Sambuca|#3A2010
+Cape Cod|#3C4443
+Kokoda|#6E6D57
+Pattens Blue|#DEF5FF
+Saffron Mango|#F9BF58
+Veronica|#a020f0
+Portland Orange|#ff5a36
+Rasberry jam|#a50b5e
+Hit Pink|#FFAB81
+USC Gold|#ffcc00
+Oxley Green|#779E86
+Dark coral|#cd5b45
+Burnt orange|#cc5500
+Gray asparagus|#465945
+Mid Gray|#5F5F6E
+Flame|#DA5B38
+Brown Bramble|#592804
+Acapulco Teal|#7CB0A1
+English Walnut|#3E2B23
+Green|#00ff00
+Dawn|#A6A29A
+Snow Flurry|#E4FFD1
+Floral white|#fffaf0
+Lemon Grass|#9B9E8F
+Clam Shell|#D4B6AF
+Judge Gray|#544333
+Birch|#373021
+Harlequin|#3fff00
+Lochmara|#007EC7
+Jumbo grey|#7C7B82
+Snow|#fffafa
+Light Crimson|#f56991
+Nobel grey|#B7B1B1
+Pink Swan grey|#BEB5B7
+Wine Berry|#591D35
+Gunsmoke grey|#828685
+Santas Gray|#9FA0B1
+Jacaranda purple|#2E0329
+Munsell white|#f2f3f4
+Rock Blue|#9EB1CD
+Magic Mint|#AAF0D1
+Buff yellow|#f0dc82
+Debian red|#d70a53
+Chicago Storm|#5D5C58
+Cement|#8D7662
+Hillary|#ACA586
+Brick Red|#C62D42
+Cedar|#3E1C14
+Twilight Blue|#EEFDFF
+Morning Glory|#9EDEE0
+Cherry|#de3163
+Lavender Pink|#FBAED2
+Spicy Mustard|#74640D
+Jonquil yellow|#fada5e
+Chalky|#EED794
+Heliotrope|#df73ff
+Gray Olive|#A9A491
+Saddle|#4C3024
+Rufous red|#a81c07
+Pompadour purple|#660045
+Rosy brown|#bc8f8f
+Deep Cove|#051040
+Concrete|#F2F2F2
+Black Olive|#242E16
+Vin Rouge|#983D61
+Stizza red|#990000
+Endeavour blue|#0056A7
+Raspberry glace|#915f6d
+Electric yellow|#ffff00
+Medium teal blue|#0054b4
+Mauve taupe|#915f6d
+Verdun Green|#495400
+Lochinvar teal|#2C8C84
+Blush Pink|#FF6FFF
+Puce pink|#cc8899
+Alice Blue|#F0F8FF
+Tulip Tree|#EAB33B
+Ice Cold|#B1F4E7
+Cobalt|#0047ab
+Sienna|#882d17
+Light Orchid|#E29CD2
+Salem green|#097F4B
+Niagara|#06A189
+Star Dust|#9F9F9C
+Tea green|#d0f0c0
+Tamarind |#341515
+Bay blue|#273A81
+Hopbush pink|#D06DA1
+Icterine yellow|#fcf75e
+French rose|#f64a8a
+Shocking Pink|#FC0FC0
+Pale pink|#fadadd
+Alto white|#DBDBDB
+Ocean Boat Blue|#0077be
+Primrose|#EDEA99
+Old Gold|#CFB53B
+Dark red|#8b0000
+Cherrywood|#651A14
+Ecru White|#F5F3E5
+Kelly green|#4cbb17
+Swirl|#D3CDC5
+Downriver|#092256
+Limed Ash|#747D63
+Viola|#CB8FA9
+Tallow|#A8A589
+Periwinkle Gray|#C3CDE6
+Palatinate purple|#682860
+Light fuchsia pink|#f984ef
+Cedar Wood|#711A00
+Coral red|#ff4040
+Citron|#9EA91F
+Squirrel|#8F8176
+Amethyst Smoke|#A397B4
+Taupe gray|#8b8589
+Han blue|#446ccf
+Royal blue|#4169e1
+Husk|#B7A458
+Martinique|#363050
+Potters Clay|#8C5738
+Green yellow|#adff2f
+Faded orange|#cc7722
+Neon fuchsia|#fe59c2
+Bossanova purple|#4E2A5A
+Breaker Bay|#5DA19F
+Apricot White|#FFFEEC
+Tarawera|#073A50
+Chardonnay|#FFCD8C
+Bright maroon|#c32148
+Barossa|#44012D
+Spectra|#2F5A57
+Thunderbird red|#C02B18
+Classic rose|#fbcce7
+Golden Dream|#F0D52D
+Copper Rose|#996666
+Linen|#faf0e6
+Catskill White|#EEF6F7
+Crude Oil|#281E15
+Spring Wood|#F8F6F1
+Smokey topaz|#933d41
+Black Rock|#0D0332
+Red violet|#c71585
+Pale Slate|#C3BFC1
+Clementine|#E96E00
+Water Leaf|#A1E9DE
+Black Forest|#0B1304
+Sandstorm|#ecd540
+Hippie Green|#53824B
+Vista Blue|#8FD6B4
+Cameo|#D9B99B
+Camel|#c19a6b
+Mordant red 19|#ae0c00
+Sand Dune|#826F65
+Vivid tangerine|#ffa089
+Kumera|#886221
+Dark lavender|#734f96
+Salomie|#FEDB8D
+Ming|#36747D
+Forest green|#228b22
+Brink pink|#fb607f
+Petite Orchid|#DB9690
+Marigold Yellow|#FBE870
+Mint|#3eb489
+Pomegranate|#F34723
+Camouflage Green|#78866B
+Atoll blue|#0A6F75
+Purple pizzazz|#fe4eda
+Honeydew|#f0fff0
+Blue Dianne|#204852
+Laser Lemon|#fefe22
+Burnt umber|#8a3324
+Pacifika green|#778120
+Tangerine yellow|#ffcc00
+Burgundy|#800020
+Aureolin yellow|#fdee00
+Napier green|#2a8000
+Bourbon|#BA6F1E
+Tiara|#C3D1D1
+Raven|#727B89
+Eternity|#211A0E
+Tiffany Blue|#0abab5
+Pastel pink|#ffd1dc
+Pumpkin Skin|#B1610B
+Milk Punch|#FFF6D4
+Old rose|#c08081
+Thatch Green|#403D19
+Dark scarlet|#560319
+Chocolate orange|#d2691e
+Blossom|#DCB4BC
+Brandy|#DEC196
+Acadia|#1B1404
+Flint|#6F6A61
+Hawkes Blue|#D4E2FC
+Yellow Sea|#FEA904
+Deep cerise|#da3287
+Magnolia|#f8f4ff
+Astra|#FAEAB9
+Cosmic latte|#fff8e7
+Au Chico|#97605D
+Totem Pole|#991B07
+Opal|#A9C6C2
+Pale Rose|#FFE1F2
+June bud|#bdda57
+Medium Purple|#9370DB
+London Hue|#BEA6C3
+Cello blue|#1E385B
+Voodoo violet|#533455
+Light gray|#d3d3d3
+Wine|#722f37
+Spring bud|#a7fc00
+Indian yellow|#e3a857
+Botticelli blue|#C7DDE5
+Calico cream|#E0C095
+Orinoco|#F3FBD4
+Green Pea|#1D6142
+Finn|#692D54
+Venetian Red|#72010F
+Waterspout|#00ffff
+School bus Yellow|#FFD800
+Timber Green|#16322C
+Field drab|#6c541e
+Sidecar|#F3E7BB
+Dolly yellow|#F9FF8B
+Envy|#8BA690
+Lemon|#fff700
+Peanut|#782F16
+Mosque|#036A6E
+Light sky blue|#87cefa
+Melrose|#C7C1FF
+Dark Dove gray|#403B38
+Lavender pink|#fbaed2
+Champagne|#fad6a5
+Dark tan|#918151
+Violent Violet|#290C5E
+Malibu|#7DC8F7
+Makara|#897D6D
+Redwood|#5D1E0F
+Fruit Salad|#4F9D5D
+Australian Mint|#F5FFBE
+Citrus|#A1C50A
+Rose madder|#e32636
+Porcelain|#EFF2F3
+Marzipan|#F8DB9D
+Wasabi|#788A25
+Selective Yellow|#FFBA00
+Medium sea green|#3cb371
+Amulet|#7B9F80
+Banana Mania|#fae7b5
+Red Berry|#8E0000
+Pale chestnut|#ddadaf
+Remy|#FEEBF3
+Galliano|#DCB20C
+Scarlet Gum|#431560
+Wafer|#DECBC6
+Pale Prim|#FDFEB8
+Granny Smith|#84A0A0
+Brandeis blue|#0070ff
+True Blue|#0073cf
+UCLA Gold|#ffb300
+Bright ube|#d19fe8
+Ultra pink|#ff6fff
+Lucky Blue|#1A1A68
+Athens Gray|#EEF0F3
+Cocoa brown|#d2691e
+Gossip|#D2F8B0
+Deep Bronze|#4A3004
+Stratosphere|#000741
+Chamois|#EDDCB1
+Amber|#ffbf00
+Blue Stone|#016162
+Madison|#09255D
+Frostee|#E4F6E7
+Valentino violet|#350E42
+Fiery Orange|#B35213
+Cream Can|#F5C85C
+Jade|#00a86b
+Ceramic|#FCFFF9
+Mona Lisa|#FFA194
+Jagger|#350E57
+Cardinal Pink|#8C055E
+Bridesmaid|#FEF0EC
+Upsdell red|#ae2029
+Flush Mahogany|#CA3435
+Deep Sea|#01826B
+Azalea|#F7C8DA
+Cocoa Brown|#301F1E
+Sirocco|#718080
+Ottoman|#E9F8ED
+Dark Rosewood |#674846
+Peat|#716B56
+Ruddy brown|#bb6528
+Mako|#444954
+Rose quartz|#aa98a9
+Fulvous orange|#e48400
+Horizon|#5A87A0
+Dallas brown|#6E4B26
+Metallic Copper|#71291D
+Fire Bush|#E89928
+Wisteria|#c9a0dc
+Storm Dust|#646463
+Cadet grey|#91a3b0
+Golden Glow|#FDE295
+Meteor|#D07D12
+Java|#1FC2C2
+Astral|#327DA0
+Spring Leaves|#578363
+Piggy pink|#fddde6
+Boulder|#7A7A7A
+Turquoise|#30d5c8
+Aubergine|#3B0910
+Cerise Red|#DE3163
+Royal yellow|#F7B668
+Surf Crest|#CFE5D2
+Ultramarine|#120a8f
+Sorbus|#FD7C07
+Gulf Blue|#051657
+Mimosa|#F8FDD3
+Loafer|#EEF4DE
+Seance|#731E8F
+Bismark|#497183
+Dark olive green|#556b2f
+Muesli|#AA8B5B
+Congress Blue|#02478E
+Cumin Seed|#924321
+Pale blue|#afeeee
+Havelock Blue|#5590D9
+White smoke|#f5f5f5
+Jelly Bean|#297B9A
+Vanilla Ice|#F3D9DF
+Eastern Blue|#1E9AB0
+Sandstone|#796D62
+Mine Shaft|#323232
+Radical Red|#ff355e
+River Bed|#434C59
+Vida Loca|#549019
+Tosca|#8D3F3F
+Tawny Port|#692545
+Medium jungle green|#1c352d
+Sky blue|#87ceeb
+Venetian red|#c80815
+Burnt Umber|#8A3324
+Barberry|#DED717
+Las Palmas|#C6E610
+Cambridge Blue|#a3c1ad
+Pale cornflower blue|#abcdef
+Pale gold|#e6be8a
+Anzac|#E0B646
+Gumbo|#7CA1A6
+Awesome Pink|#ff2052
+Dolphin grey|#646077
+Golden Sand|#F0DB7D
+Pastel Green|#77DD77
+Baltic Sea|#2A2630
+Deep Sapphire|#082567
+Brown Pod|#401801
+Spring green|#00ff7f
+Oslo Gray|#878D91
+Sunglow|#E16865
+Magic mint|#aaf0d1
+Cream|#fffdd0
+Roof Terracotta|#A62F20
+Rope|#C2955D
+Mandalay|#AD781B
+Pastel Pink|#FFD1DC
+Willow Grove|#65745D
+Seashell|#fff5ee
+Carnation Pink|#FFA6C9
+Malta|#BDB2A1
+Hint of Yellow|#FAFDE4
+Mobster|#7F7589
+Cavern Pink|#E3BEBE
+Edward|#A2AEAB
+Kelp|#454936
+Wisp Pink|#FEF4F8
+Brown Rust|#AF593E
+Carnaby Tan|5C2E01
+Romantic|FFD2B7
+Pixie Green|C0D8B6
+Vivid burgundy|9f1d35
+Conifer|ACDD4D
+Medium red violet|bb3385
+Scarpa Flow|585562
+Lavender magenta|ee82ee
+Gimblet|B8B56A
+Light Apricot|FDD5B1
+Gurkha|9A9577
+Paprika|8D0226
+Blue green|0d98ba
+Shuttle Gray|5F6672
+Tia Maria|C1440E
+Fire engine red|ce2029
+Daisy Bush|4F2398
+Robin's Egg Blue|1fcecb
+Pampas|F4F2EE
+Firebrick|b22222
+Hansa yellow|e9d66b
+Sea Buckthorn|FBA129
+Loulou|460B41
+Violet|ee82ee
+Empress|817377
+Fire|AA4203
+Sahara|B7A214
+Tapestry|B05E81
+Derby|FFEED8
+Burnt Maroon|420303
+Crete|737829
+Spindle|B6D1EA
+Cabaret|D94972
+Orient|015E85
+Powder Blue|B0E0E6
+Mercury|E5E5E5
+Golden poppy|fcc200
+Madras|3F3002
+Sahara Sand|F1E788
+Sun|FBAC13
+Gondola|261414
+Nebula|CBDBD6
+Daintree|012731
+Parsley|134F19
+Tango|ED7A1C
+Bright Gray|3C4151
+Jewel|126B40
+Elephant|123447
+Crimson|dc143c
+Gin|E8F2EB
+Morocco Brown|441D00
+Quarter Pearl Lusta|FFFDF4
+Don Juan|5D4C51
+Bole|79443b
+Tangelo|f94d00
+Dark terra cotta|cc4e5c
+Oxford Blue|002147
+Arrowtown|948771
+Mountbatten Pink|997A8D
+Bali Hai|859FAF
+Irish Coffee|5F3D26
+Light coral|f08080
+El Paso|1E1708
+Putty|E7CD8C
+Swamp Green|ACB78E
+Mango Tango|ff8243
+Mondo|4A3C30
+Mystic|E2EBED
+Bandicoot|858470
+Coriander|C4D0B0
+Ferra|704F50
+Summer Green|96BBAB
+Iceberg|DAF4F0
+Tonys Pink|E79F8C
+Affair|714693
+Plum|dda0dd
+Witch Haze|FFFC99
+Cosmic|76395D
+Friar Gray|807E79
+Keppel|3AB09E
+Inchworm|b2ec5d
+Moon Mist|DCDDCC
+Ruddy|ff0028
+Allports|0076A3
+Opera mauve|b784a7
+Bleach White|FEF3D8
+International orange|ff4f00
+Red brown|a52a2a
+Finch|626649
+Caribbean Green|00CC99
+Chelsea Gem|9E5302
+Blue Violet|6456B7
+Gainsboro|dcdcdc
+Caf\u00e9 au lait|a67b5b
+Lavender purple|967bb6
+Claret|7F1734
+Pale lavender|dcd0ff
+Blumine|18587A
+Tan|d2b48c
+Rose Bud|FBB2A3
+Pale spring bud|ecebbd
+Majorelle Blue|6050dc
+Can Can|D591A4
+Sazerac|FFF4E0
+Monte Carlo|83D0C6
+Gray|808080
+Trendy Pink|8C6495
+Kaitoke Green|004620
+Drab|967117
+Sunshade|FF9E2C
+Romance|FFFEFD
+Carmine|ff0040
+Rose taupe|905d5d
+Shakespeare|4EABD1
+Zorba|A59B91
+Orange|ffa500
+Monarch|8B0723
+Norway|A8BD9F
+Clinker|371D09
+Red|ff0000
+Coral pink|f88379
+Hot Toddy|B38007
+Charcoal|36454f
+Mulled Wine|4E4562
+Reef Gold|9F821C
+Silver Rust|C9C0BB
+My Sin|FFB31F
+Moon Raker|D6CEF6
+Chrome yellow|ffa700
+Light slate gray|778899
+Cutty Sark|507672
+Coconut Cream|F8F7DC
+Fluorescent yellow|ccff00
+Reef|C9FFA2
+Olivetone|716E10
+Baby pink|f4c2c2
+Camelot|893456
+Umber|635147
+Zanah|DAECD6
+Ball Blue|21abcd
+Bean  |3D0C02
+Korma|8F4B0E
+Tuscany|BD5E2E
+Mint Tulip|C4F4EB
+Wenge|645452
+Nugget|C59922
+Electric lime|ccff00
+Wild Blue Yonder|7A89B8
+Beige|f5f5dc
+Light cornflower blue|93ccea
+Kenyan Copper|7C1C05
+Pippin|FFE1DF
+Palm Leaf|19330E
+Deep carrot orange|e9692c
+Shocking|E292C0
+Electric lavender|f4bbff
+Cannon Pink|894367
+Vivid cerise|da1d81
+Saint Patrick Blue|23297a
+Nevada|646E75
+Spiro Disco Ball|0fc0fc
+Zest|E5841B
+Battleship grey|848482
+Cascade|8BA9A5
+Sepia Black|2B0202
+Tequila|FFE6C7
+Almond|efdecd
+Arylide yellow|e9d66b
+Buttered Rum|A1750D
+Crimson glory|be0032
+Twilight lavender|8a496b
+Whisper|F7F5FA
+Rodeo Dust|C9B29B
+Ripe Lemon|F4D81C
+Deep magenta|cc00cc
+Congo Brown|593737
+Teal Blue|044259
+Buttercup|F3AD16
+Coral Tree|A86B6B
+Matrix|B05D54
+Classic Rose|FBCCE7
+Medium lavender magenta|dda0dd
+Vivid Tangerine|FF9980
+Sail|B8E0F9
+Old Lace|FDF5E6
+Abbey|4C4F56
+Tyrian Purple|66023C
+Hot Pink|FF69B4
+Misty rose|ffe4e1
+Zircon|F4F8FF
+Anakiwa|9DE5FF
+Sky Blue|76D7EA
+Outer Space|414a4c
+Rolling Stone|747D83
+Persimmon|FF6B53
+Deep carmine|a9203e
+Emperor|514649
+Chathams Blue|175579
+Midnight green|004953
+Buttery White|FFFCEA
+Pale Oyster|988D77
+Camarone|00581A
+Pale copper|da8a67
+Mint Green|98FF98
+Big Stone|162A40
+Pine Green|01796F
+Gable Green|163531
+Yellow|ffff00
+Iris|5a4fcf
+Aquamarine|7fffd4
+Nepal|8EABC1
+Laser|C8B568
+Tradewind|5FB3AC
+Bleached Cedar|2C2133
+Leather|967059
+Mortar|504351
+Bottle green|006a4e
+Peru Tan|7F3A02
+Medium Persian blue|0067a5
+Medium electric blue|035096
+Mint green|98ff98
+Stromboli|325D52
+University of California Gold|b78727
+Cinder|0E0E18
+Genoa|15736B
+Steel Gray|262335
+Powder blue|b0e0e6
+Portafino|FFFFB4
+Lavender Gray|BDBBD7
+Prim|F0E2EC
+Brown|a52a2a
+Sprout|C1D7B0
+Fuzzy Wuzzy|cc6666
+Utah Crimson|d3003f
+Sage|9EA587
+Purple Pizzazz|FF00CC
+Fern|71bc78
+Americano|87756E
+Apple green|8db600
+Dodger blue|1e90ff
+Juniper|6D9292
+Rice Cake|FFFEF0
+We Peep|F7DBE6
+Matterhorn|4E3B41
+Spice|6A442E
+Office green|008000
+Oyster Bay|DAFAFF
+Chilean Fire|F77703
+Port Gore|251F4F
+Black Rose|67032D
+Yellow Green|C5E17A
+Shingle Fawn|6B4E31
+Eucalyptus|278A5B
+Dark turquoise|00ced1
+Blaze Orange|FF6600
+Rose bonbon|f9429e
+Lavender|e6e6fa
+Green Yellow|ADFF2F
+Tamarillo|991613
+Sacramento State green|00563f
+Tusk|EEF3C3
+Medium carmine|af4035
+Burnt sienna|e97451
+American rose|ff033e
+Antique fuchsia|915c83
+Tobacco Brown|715D47
+Pizza|C99415
+Golden Bell|E28913
+Science Blue|0066CC
+Onyx|0f0f0f
+UCLA Blue|536895
+Tomato|ff6347
+Oasis|FEEFCE
+Rebel|3C1206
+Tickle Me Pink|fc89ac
+Maize|fbec5d
+Tutu|FFF1F9
+Colonial White|FFEDBC
+Ghost|C7C9D5
+Cornsilk|fff8dc
+Golden Fizz|F5FB3D
+Turtle Green|2A380B
+Lawn green|7cfc00
+Pacific Blue|1ca9c9
+Zinnwaldite brown|2c1608
+Tana|D9DCC1
+Orange Peel|FFA000
+Sap green|507d2a
+Eton blue|96c8a2
+Roman|DE6360
+Carousel Pink|F9E0ED
+Blackberry|4D0135
+Islamic green|009000
+Eggplant|614051
+Caribbean green|00cc99
+Bridal Heath|FFFAF4
+Limeade|6F9D02
+Peach Schnapps|FFDCD6
+Fuzzy Wuzzy Brown|C45655
+Cadet|536872
+English Holly|022D15
+Apple|4FA83D
+Whiskey|D59A6F
+Swans Down|DCF0EA
+Van Cleef|49170C
+Denim|1560bd
+Carnation pink|ffa6c9
+New York Pink|D7837F
+Mai Tai|B06608
+Link Water|D9E4F5
+Shamrock|45cea2
+Lemon lime|bfff00
+Dove Gray|6D6C6C
+Cotton Candy|FFB7D5
+Rangitoto|2E3222
+Glitter|e6e8fa
+Orange Yellow|f8d568
+Dark raspberry|872657
+Dark byzantium|5d3954
+Pale red violet|db7093
+Biloba Flower|B2A1EA
+Gossamer|069B81
+Green Spring|B8C1B1
+Egg Sour|FFF4DD
+Brilliant Rose|F653A6
+Meteorite|3C1F76
+West Side|FF910F
+Grape|381A51
+Raw Umber|734A12
+Bon Jour|E5E0E1
+Viridian|40826d
+Cadillac|B04C6A
+Scampi|675FA6
+Blackcurrant|32293A
+Edgewater|C8E3D7
+Kangaroo|C6C8BD
+Elm|1C7C7D
+Tangerine|f28500
+Spray|79DEEC
+Cool grey|8c92ac
+Golden Tainoi|FFCC5C
+Baby Blue|E0FFFF
+Jordy Blue|8AB9F1
+Bazaar|98777b
+Orange red|ff4500
+Taupe Gray|B3AF95
+Paris Green|50c878
+Wewak|F19BAB
+Blue Marguerite|7666C6
+Swiss Coffee|DDD6D5
+True V|8A73D6
+Folly|ff004f
+Shilo|E8B9B3
+Aztec|0D1C19
+Cold Purple|ABA0D9
+Aero Blue|C9FFE5
+Turquoise Blue|6CDAE7
+Pale taupe|bc987e
+Pale magenta|f984e5
+Seagull|80CCEA
+Hemp|907874
+Hint of Green|E6FFE9
+Paco|411F10
+Red Beech|7B3801
+Solitude|EAF6FF
+Maya blue|73c2fb
+Navajo White|FFDEAD
+Stack|8A8F8A
+Stiletto|9C3336
+Casablanca|F8B853
+Patina|639A8F
+Dixie|E29418
+Red Violet|C71585
+Silver Tree|66B58F
+Pale plum|dda0dd
+Platinum|e5e4e2
+Light taupe|b38b6d
+Apple Blossom|AF4D43
+Light brown|b5651d
+Gold Drop|F18200
+Mandys Pink|F2C3B2
+Skeptic|CAE6DA
+Burning Orange|FF7034
+San Marino|456CAC
+Cal Poly Pomona green|1e4d2b
+Papaya whip|ffefd5
+Cornflower Lilac|FFB0AC
+Chartreuse|7fff00
+Bermuda|7DD8C6
+Curious Blue|2596D1
+Indian red|cd5c5c
+Mountbatten pink|997a8d
+Sea Nymph|78A39C
+Falu Red|801818
+Soft Peach|F5EDEF
+Neon green|39ff14
+Wheat|f5deb3
+Paarl|A65529
+Purple taupe|50404d
+Flamingo pink|fc8eac
+Medium orchid|ba55d3
+Gray Nurse|E7ECE6
+Cadmium yellow|fff600
+Vulcan|10121D
+Bracken|4A2A04
+Chino|CEC7A7
+Crusta|FD7B33
+Jon|3B1F1F
+Alpine|AF8F2C
+Opium|8E6F70
+Eminence|6C3082
+Coffee Bean|2A140E
+Neptune|7CB7BB
+Ivory|fffff0
+Forest Green|228B22
+Electric cyan|00ffff
+Peppermint|E3F5E1
+French Lilac|ECC7EE
+Cadmium green|006b3c
+Cool black|002e63
+Picton Blue|45B1E8
+Snow Drift|F7FAF7
+Dark midnight blue|003366
+Rope|8E4D1E
+Cornflower Blue|6495ED
+Asphalt|130A06
+Flesh|FFCBA4
+Blue purple|8a2be2
+Wattle|DCD747
+Copper Canyon|7E3A15
+Pale robin egg blue|96ded1
+Midnight Moss|041004
+Gothic|6D92A1
+Tory Blue|1450AA
+Hollywood Cerise|F400A1
+Casal|2F6168
+Sinbad|9FD7D3
+Cupid|FBBEDA
+Heath|541012
+Sandy brown|f4a460
+Parchment|F1E9D2
+Urobilin|e1ad21
+Brandy Punch|CD8429
+San Juan|304B6A
+Half Colonial White|FDF6D3
+Bird Flower|D4CD16
+Dark powder blue|003399
+Burlywood|deb887
+Deep Blush|E47698
+Cranberry|DB5079
+Carmine red|ff0038
+Black|000000
+Feta|F0FCEA
+Egg White|FFEFC1
+Blue Chill|0C8990
+Copper rose|996666
+Pink Lady|FFF1D8
+Island Spice|FFFCEE
+Persian indigo|32127a
+Pine green|01796f
+Feijoa|9FDD8C
+Everglade|1C402E
+East Side|AC91CE
+Matisse|1B659D
+Fern green|4f7942
+Quill Gray|D6D6D1
+Moody Blue|7F76D3
+Liver|534b4f
+Tidal|F1FFAD
+Blue Bayoux|496679
+Moss Green|ADDFAD
+Azure mist/web|f0ffff
+Flavescent|f7e98e
+Vegas gold|c5b358
+Polo Blue|8DA8CC
+Humming Bird|CFF9F3
+Flirt|A2006D
+Lincoln green|195905
+Persian plum|701c1c
+Watercourse|056F57
+Bright Green|66FF00
+Bordeaux|5C0120
+Tan Hide|FA9D5A
+Egyptian blue|1034a6
+Vivid Violet|803790
+Glaucous|6082b6
+Light pastel purple|b19cd9
+Serenade|FFF4E8
+Pink Flare|E1C0C8
+Chiffon|F1FFC8
+Concord|7C7B7A
+Hint of Red|FBF9F9
+Nero|140600
+Sherwood Green|02402C
+Steel blue|4682b4
+Waikawa Gray|5A6E9C
+Auburn|a52a2a
+Ocean Green|41AA78
+Casper|ADBED1
+Lima|76BD17
+Maverick|D8C2D5
+Lime|bfff00
+Brandy Rose|BB8983
+Hollywood cerise|f400a1
+Apple Green|E2F3EC
+Air Force blue|5d8aa8
+Mardi Gras|350036
+Jambalaya|5B3013
+Saffron|f4c430
+Sandy taupe|967117
+Grullo|a99a86
+Deep fuchsia|c154c1
+Medium candy apple red|e2062c
+Givry|F8E4BF
+Raspberry rose|b3446c
+Hippie Pink|AE4560
+Khaki|c3b091
+Vivid auburn|922724
+Deep saffron|ff9933
+Pale cerulean|9bc4e2
+Off Green|E6F8F3
+Famous|ff00ff
+Jet Stream|B5D2CE
+Fuscous Gray|54534D
+Bronco|ABA196
+Torea Bay|0F2D9E
+Light Thulian pink|e68fac
+Bermuda Gray|6B8BA2
+Pueblo|7D2C14
+Regent St Blue|AAD6E6
+Boston University Red|cc0000
+Aqua|00ffff
+Sycamore|908D39
+Verdigris|43b3ae
+Hot Cinnamon|D2691E
+Japonica|D87C63
+Copperfield|DA8A67
+Cashmere|E6BEA5
+Grain Brown|E4D5B7
+Slate blue|6a5acd
+Selago|F0EEFD
+Guppie green|00ff7f
+Turkish Rose|B57281
+Cadmium orange|ed872d
+Black White|FFFEF6
+Desert Sand|EDC9AF
+Domino|8E775E
+Maroon|800000
+Tropical Blue|C3DDF9
+Pink Lace|FFDDF4
+Zinnwaldite|EBC2AF
+French lilac|86608e
+Flame|e25822
+Red Devil|860111
+Granite Green|8D8974
+Payne grey|536878
+Blue Chalk|F1E9FF
+Rustic Red|480404
+Sunflower|E4D422
+Tara|E1F6E8
+Fuchsia|ff00ff
+Lucky|AF9F1C
+Melanzane|300529
+Night Shadz|AA375A
+Lavender Purple|967BB6
+Flush Orange|FF7F00
+Lava|cf1020
+Eunry|CFA39D
+Red Damask|DA6A41
+Bright cerulean|1dacd6
+Pearl Bush|E8E0D5
+Governor Bay|2F3CB3
+Highland|6F8E63
+Persian pink|f77fbe
+Picasso|FFF39D
+Dandelion|f0e130
+Navy blue|000080
+Lunar Green|3C493A
+Medium slate blue|7b68ee
+Macaroni and Cheese|ffbd88
+Bianca|FCFBF3
+Purple|800080
+Elf Green|088370
+Studio|714AB2
+Lavender indigo|9457eb
+Deep Oak|412010
+Boysenberry|873260
+Dark Ebony|3C2005
+Cornflower blue|6495ed
+Eggshell|f0ead6
+Neon Carrot|ffa343
+Battleship Gray|828F72
+Cabbage Pont|3F4C3A
+Mantis|74c365
+Celadon|ace1af
+Aths Special|ECEBCE
+Mikado yellow|ffc40c
+Rich electric blue|0892d0
+Bunker|0D1117
+Columbia blue|9bddff
+Jacko Bean|2E1905
+Rich lilac|b666d2
+Lilac|c8a2c8
+Limed Oak|AC8A56
+Lightning Yellow|FCC01E
+Black Russian|0A001C
+Fern Green|4F7942
+Pale Sky|6E7783
+Brilliant rose|ff55a3
+Bubble gum|ffc1cc
+Valhalla|2B194F
+Crown of Thorns|771F1F
+Mirage|161928
+Magenta|ff00ff
+Corvette|FAD3A2
+Satin Linen|E6E4D4
+Spring Sun|F6FFDC
+Celestial blue|4997d0
+Shalimar|FBFFBA
+Pearl Lusta|FCF4DC
+Shiraz|B20931
+Pastel yellow|fdfd96
+Cherry Pie|2A0359
+Duke blue|00009c
+Pale violet red|db7093
+Dark blue|00008b
+Medium Carmine|AF4035
+Chantilly|F8C3DF
+Storm Gray|717486
+Candy pink|e4717a
+White|ffffff
+Palatinate blue|273be2
+Chestnut|cd5c5c
+Chartreuse Yellow|DFFF00
+Dark sea green|8fbc8f
+Moccaccino|6E1D14
+Chelsea Cucumber|83AA5D
+Millbrook|594433
+Armadillo|433E37
+Magenta / Fuchsia|FF00FF
+USC Cardinal|990000
+Electric purple|bf00ff
+India green|138808
+Black Pearl|041322
+Illusion|F6A4C9
+Moonstone blue|73a9c2
+Del Rio|B09A95
+Fall Green|ECEBBD
+Texas|F8F99C
+Zaffre|0014a8
+Energy Yellow|F8DD5C
+Falu red|801818
+Sweet Pink|FD9FA2
+Venice Blue|055989
+Travertine|FFFDE8
+Portica|F9E663
+Smoky|605B73
+Cruise|B5ECDF
+Steel Blue|4682B4
+Gray Asparagus|465945
+Canary yellow|ffef00
+Teak|B19461
+Wedgewood|4E7F9E
+Ecru|c2b280
+Stonewall|928573
+Teal|008080
+Cosmos|FFD8D9
+Yellow Orange|ffae42
+Fuchsia pink|ff77ff
+Kournikova|FFE772
+Corduroy|606E68
+Violet Red|f75394
+Red Orange|ff5349
+Mint Julep|F1EEC1
+Cloud Burst|202E54
+Alizarin Crimson|E32636
+Santa Fe|B16D52
+Bilbao|327C14
+Sand|c2b280
+Fuego|BEDE0D
+Slate gray|708090
+Light apricot|fdd5b1
+Wild Strawberry|ff43a4
+Beaver|9f8170
+Lonestar|6D0101
+Tiger eye|e08d3c
+China Ivory|FCFFE7
+Medium spring green|00fa9a
+Cyan / Aqua|00FFFF
+Hibiscus|B6316C
+Blue Gray|6699cc
+Cadet Blue|A9B2C3
+Nutmeg Wood Finish|683600
+Lavender blue|ccccff
+Malachite|0bda51
+Forget Me Not|FFF1EE
+Pearl|eae0c8
+Lavender blush|fff0f5
+Vesuvius|B14A0B
+Orange Roughy|C45719
+Rifle green|414833
+Guardsman Red|BA0101
+Seal brown|321414
+Surf|BBD7C1
+Turbo|FAE600
+Dark pastel green|03c03c
+Sky magenta|cf71af
+Peach yellow|fadfad
+Salmon|ff8c69
+Iroko|433120
+Bison Hide|C1B7A4
+Melanie|E4C2D5
+Nomad|BAB1A2
+Lynch|697E9A
+Deep sky blue|00bfff
+Light pink|ffb6c1
+Green House|24500F
+Turkish rose|b57281
+Dark spring green|177245
+Desert sand|edc9af
+Vanilla|f3e5ab
+Buddha Gold|C1A004
+Pirate Gold|BA7F03
+Woody Brown|483131
+Zambezi|685558
+Bubbles|e7feff
+Cape Palliser|A26645
+Butterfly Bush|624E9A
+Off Yellow|FEF9E3
+Ship Cove|788BBA
+Lemon Ginger|AC9E22
+Pastel purple|b39eb5
+Sepia|704214
+Tree Poppy|FC9C1D
+Algae Green|93DFB8
+Persian Blue|1C39BB
+De York|7AC488
+Rose White|FFF6F5
+Laurel|749378
+Cerulean blue|2a52be
+Psychedelic purple|df00ff
+Cyprus|003E40
+Saddle brown|8b4513
+Karaka|1E1609
+UA blue|0033aa
+Candy apple red|ff0800
+Astronaut|283A77
+Piper|C96323
+Apricot|fbceb1
+Dartmouth green|00693e
+Kabul|5E483E
+UA red|d9004c
+Martini|AFA09E
+Heart Gold|808000
+Fun Blue|1959A8
+Himalaya|6A5D1B
+Valencia|D84437
+Mikado|2D2510
+Satin sheen gold|cba135
+Saddle Brown|583401
+Beryl Green|DEE5C0
+Trout|4A4E5A
+Viking|64CCDB
+Tangaroa|03163C
+Grenadier|D54600
+Racing Green|0C1911
+Underage Pink|F9E6F4
+Cape Honey|FEE5AC
+Christi|67A712
+Clear Day|E9FFFD
+Baja White|FFF8D1
+Green Haze|01A368
+Double Colonial White|EEE3AD
+Ube|8878c3
+Blue Haze|BFBED8
+Charm|D47494
+Dorado|6B5755
+Silver|c0c0c0
+Gigas|523C94
+Turquoise blue|00ffef
+Polar|E5F9F6
+Wild Willow|B9C46A
+Geraldine|FB8989
+Mischka|D1D2DD
+Spanish Green|819885
+Bisque|ffe4c4
+Davy grey|555555
+Corn Harvest|8B6B0B
+Nadeshiko pink|f6adc6
+Cannon Black|251706
+Olive Haze|8B8470
+Dark cyan|008b8b
+Negroni|FFE2C5
+Dark brown|654321
+Tahuna Sands|EEF0C8
+Halay\u00e0 \u00fabe|663854
+Spun Pearl|AAABB7
+Dark Tan|661010
+Straw|e4d96f
+Sulu|C1F07C
+Deep jungle green|004b49
+Papaya Whip|FFEFD5
+United Nations blue|5b92e5
+Fantasy|FAF3F0
+Black Bean|081910
+Bright Turquoise|08E8DE
+Pizazz|FF9000
+Safety orange|ff6700
+Kilamanjaro|240C02
+Harp|E6F2EA
+Black Squeeze|F2FAFA
+Languid lavender|d6cadd
+Pink|ffc0cb
+Royal purple|7851a9
+Granny Apple|D5F6E3
+KU Crimson|e8000d
+Byzantium|702963
+Rose gold|b76e79
+Diesel|130000
+Hippie Blue|589AAF
+Merlot|831923
+Axolotl|4E6649
+Trolley Grey|808080
+Lavender Magenta|EE82EE
+Light cyan|e0ffff
+Oyster Pink|E9CECD
+Pesto|7C7631
+Venus|928590
+Mist Gray|C4C4BC
+Yuma|CEC291
+Fern Frond|657220
+Your Pink|FFC3C0
+Sapling|DED4A4
+Log Cabin|242A1D
+Green White|E8EBE0
+Clay Ash|BDC8B3
+Electric Violet|8B00FF
+Scooter|2EBFD4
+Bistre|3d2b1f
+Peach Cream|FFF0DB
+Fountain Blue|56B4BE
+Victoria|534491
+Albescent White|F5E9D3
+Quicksand|BD978E
+Dark Burgundy|770F05
+Olive|808000
+Gold Tips|DEBA13
+Deep peach|ffcba4
+Prussian blue|003153
+Fuchsia Pink|C154C1
+Ship Gray|3E3A44
+Sea Green|2E8B57
+Jaffa|EF863F
+Bondi blue|0095b6
+Golden Grass|DAA520
+Beau blue|bcd4e6
+Hoki|65869F
+Saratoga|555B10
+Loblolly|BDC9CE
+Manz|EEEF78
+Eclipse|311C17
+Aluminium|A9ACB6
+Napa|ACA494
+Perfume|D0BEF8
+Dingley|5D7747
+Charlotte|BAEEF9
+Carissma|EA88A8
+Brilliant lavender|f4bbff
+Luxor Gold|A7882C
+Spring Green|00FF7F
+Dark orange|ff8c00
+Lily White|E7F8FF
+Thulian pink|de6fa1
+San Felix|0B6207
+Shark|25272C
+Goblin|3D7D52
+Laurel green|a9ba9d
+Ebb|E9E3E3
+Electric Lime|CCFF00
+Old lace|fdf5e6
+Light sea green|20b2aa
+Scarlet|ff2400
+Jasper|d73b3e
+Tide|BFB8B0
+Blue violet|8a2be2
+Go Ben|726D4E
+Bunting|151F4C
+Naples yellow|fada5e
+Indochine|C26B03
+Purple mountain majesty|9678b6
+Thunder|33292F
+Pavlova|D7C498
+Mandy|E25465
+Walnut|773F1A
+Tall Poppy|B32D29
+Crater Brown|462425
+Rose pink|ff66cc
+Pale aqua|bcd4e6
+Pink Flamingo|fc74fd
+Tundora|4A4244
+Deep chestnut|b94e48
+Firefly|0E2A30
+Cornflower|9aceeb
+Coffee|6f4e37
+Dim gray|696969
+Bright Sun|FED33C
+Alice blue|f0f8ff
+White Ice|DDF9F1
+Lily|C8AABF
+Scotch Mist|FFFBDC
+Pale carmine|af4035
+Rosso corsa|d40000
+Gray Nickel|C3C3BD
+Fashion fuchsia|f400a1
+Celtic|163222
+St Tropaz|2D569B
+Dark slate gray|2f4f4f
+Spicy Mix|885342
+Timberwolf|dbd7d2
+Ruby|e0115f
+Azure Radiance|007FFF
+Pigeon Post|AFBDD9
+Persian Indigo|32127A
+Temptress|3B000B
+Pale brown|987654
+Army green|4b5320
+Pink Sherbet|f78fa7
+Eden|105852
+Moccasin|faebd7
+Conch|C9D9D2
+Palm Green|09230F
+Pastel magenta|f49ac2
+Torch Red|FD0E35
+Midnight Blue|003366
+Celeste|b2ffff
+Rock|4D3833
+Red Ribbon|ED0A3F
+Careys Pink|D29EAA
+Light carmine pink|e66771
+Merino|F6F0E6
+Caper|DCEDB4
+Sea blue|006994
+Cioccolato|55280C
+Bastille|292130
+Costa Del Sol|615D30
+Ferrari Red|ff2800
+Half Spanish White|FEF4DB
+Bouquet|AE809E
+Bronze Olive|4E420C
+Evening Sea|024E46
+Rich maroon|b03060
+Dairy Cream|F9E4BC
+Crocodile|736D58
+Japanese Maple|780109
+Terra cotta|e2725b
+Royal fuchsia|ca2c92
+Tranquil|E6FFFF
+Gun Powder|414257
+West Coast|625119
+Persian Plum|701C1C
+Pohutukawa|8F021C
+Faded Jade|427977
+Lotus|863C3C
+Sapphire|0f52ba
+Earls Green|C9B93B
+Old lavender|796878
+Periwinkle|ccccff
+Bright turquoise|08e8de
+Medium Red Violet|BB3385
+Rackley|5d8aa8
+Como|517C66
+Citrine|e4d00a
+Sunset Orange|fd5e53
+Creole|1E0F04
+Perano|A9BEF2
+Deep champagne|fad6a5
+Trendy Green|7C881A
+Blue Gem|2C0E8C
+Titan White|F0EEFF
+Gin Fizz|FFF9E2
+Pastel brown|836953
+Foam|D8FCFA
+Horses Neck|604913
+Light salmon pink|ff9999
+Hunter green|355e3b
+Thistle Green|CCCAA8
+Rose|ff007f
+California|FE9D04
+Contessa|C6726B
+Teal green|006d5b
+Silver Chalice|ACACAC
+Gold Sand|E6BE8A
+Smalt|003399
+Dark sienna|3c1414
+Citrine White|FAF7D6
+Maroon Flush|C32148
+Cowboy|4D282D
+Tolopea|1B0245
+Donkey Brown|A69279
+Arapawa|110C6C
+Web Orange|FFA500
+Sea Pink|ED989E
+Lipstick|AB0563
+Di Serria|DB995E
+Crusoe|004816
+Tea Green|D0F0C0
+Monsoon|8A8389
+Medium taupe|674c47
+White Lilac|F8F7FC
+Yellow Metal|716338
+White Linen|F8F0E8
+Raw Sienna|d68a59
+Maroon Oak|520C17
+North Texas Green|059033
+Gold|ffd700
+Pale Leaf|C0D3B9
+Princeton orange|ff8f00
+Tea|C1BAB0
+Raffia|EADAB8
+Deep carmine pink|ef3038
+Surfie Green|0C7A79
+Brown Derby|492615
+Bud|A8AE9C
+Thistle|d8bfd8
+Mongoose|B5A27F
+Dark salmon|e9967a
+Boston Blue|3B91B4
+Fun Green|016D39
+Carrot orange|ed9121
+Mexican Red|A72525
+Barley White|FFF4CE
+Sandal|AA8D6F
+Chilean Heath|FFFDE6
+Shadow Green|9AC2B8
+Portage|8B9FEE
+Cadmium red|e30022
+Cinderella|FDE1DC
+Pastel green|77dd77
+Pigment Indigo|4B0082
+Ao|008000
+Sweet Corn|FBEA8C
+Persian Rose|FE28A2
+Lavender mist|e6e6fa
+Atlantis|97CD2D
+Persian rose|fe28a2
+Hokey Pokey|C8A528
+Chateau Green|40A860
+Kidnapper|E1EAD4
+Aqua Spring|EAF9F5
+Pastel gray|cfcfc4
+Sanguine Brown|8D3D38
+Bull Shot|864D1E
+Cordovan|893f45
+Siam|646A54
+Confetti|E9D75A
+Honeysuckle|EDFC84
+Goldenrod|daa520
+Prelude|D0C0E5
+Vivid violet|9f00ff
+El Salva|8F3E33
+Jaguar|080110
+Midnight blue|191970
+Red Stage|D05F04
+Baby blue eyes|a1caf1
+Xanadu|738678
+Heather|B7C3D0
+Daffodil|ffff31
+Caput mortuum|592720
+Dark violet|9400d3
+Olive Green|bab86c
+Swamp|001B1C
+Half and Half|FFFEE1
+Minsk|3F307F
+Mountain Mist|959396
+Candy Corn|FBEC5D
+School bus yellow|ffd800
+Sandy Beach|FFEAC8
+French Rose|F64A8A
+Meat brown|e5b73b
+Stormcloud|008080
+Astronaut Blue|013E62
+Vermilion|e34234
+Ironstone|86483C
+Frosted Mint|DBFFF8
+Sea Mist|C5DBCA
+Antique brass|cd9575
+Pablo|776F61
+Tacha|D6C562
+Scandal|CFFAF4
+Orange White|FEFCED
+Cararra|EEEEE8
+Raspberry pink|e25098
+Double Pearl Lusta|FCF4D0
+Bulgarian Rose|480607
