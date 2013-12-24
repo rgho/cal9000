@@ -1,0 +1,27 @@
+
+
+>> Challenges
+	> No Backend, all browser.
+
+	> Color dataset of human names to hex / rgb
+		+ Scraped from Crayola, etc.
+		+ Manually cull all the stupid names
+
+	> Text to Voice
+		+Use an API
+
+	> RGB diff for most similar colors does not map to human perception of similar colors. 
+	
+	> Speed Optimizations (shoutout Mary + Alan)
+		+ Rather than loop over all colors in dataset for each pixel in image, partition the dataset into cubes. Then figure out the closest cube to a given pixel and search the cube and surrounding cubes for "best fit color"
+
+	> Speed Optimization - (shoutout Adam)
+		+ Shrink the image.
+
+	> Synchronize text appearance with voice
+		+ Javascript Events (canPlaySound)
+		+ Dynamically adjust callback time based on . , ! and length of word about to be shown
+		+ wait for voice to load before showing desc.
+
+	> CAL's pulsing red effect (All credit to Adam)
+		+ Based on voice, using Audio API / Volume levels.
