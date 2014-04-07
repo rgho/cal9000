@@ -2,31 +2,22 @@
 // ^ import color lib: https://github.com/Shushik/i-color
 
 
-// GET A REF TO THE DROPBOX AND IMG PREVIEW DOM ELEMENT
+// Get a reference to the dropbox and preview dom elements.
 var dropbox = document.getElementById("dropbox");
-var preview1 = document.getElementById("preview");
 
-// init event handlers
-preview.addEventListener("onload", previewLoaded, false); // NOT BEING TRIGGERED CURRENTLY
+// Init event handlers
 dropbox.addEventListener("dragenter", dragEnter, false);
 dropbox.addEventListener("dragexit", dragExit, false); // Not being triggered currently
 dropbox.addEventListener("dragover", dragOver, false);
 dropbox.addEventListener("drop", drop, false);
 
-// events
-function previewLoaded(evt) {
-  alert("loaded");
-  preventEvent(evt);
-  console.log("PreviewLoaded");
-};
-
+// Events trigged by user interaction with dropbox.
 function preventEvent(evt) {
-  // ALSO called a no op Handler (borrowing terminology from assembly)  
+  // Also called a "no op handler" (borrowing terminology from assembly)  
   evt.stopPropagation();
   evt.preventDefault();
 };
 
-// EVENTS TRIGGERED BY THE USER BRINGING A FILE INTO DROPBOX AREA
 function dragEnter(evt) {
   preventEvent(evt);
   document.getElementById("dropbox").style.color="Red";
@@ -37,56 +28,53 @@ function dragExit(evt) {
   preventEvent(evt);
   document.getElementById("dropbox").style.color="Green";
   console.log("dragExit");
-
 };
 
 function dragOver(evt) {
   preventEvent(evt);
-  console.log("dragOver");
-
 };
 
 function drop(evt) {
   console.log("Drop")
   preventEvent(evt);
-
-  // MAGIC HAPPENS IN THIS FUNCTION
-  document.getElementById("dropbox").style.color="#BBB";
+  // Start the loading bar
   NProgress.start();
-  // GRAB THE FILES FROM THE EVENT
+  // Extract files from the event
   var files = evt.dataTransfer.files;
-  var count = files.length;
-  // Only call the handler if 1 or more files was dropped.
-  if (count > 0) handleFiles(files);
+  // Call the handler iff 1 or more files dropped.
+  if (files.length > 0) handleFiles(files);
 };
 
 
-// HANDLER THAT DEALS WITH FILES ADDED TO DROPBOX
 function handleFiles(files){
-  //GRAB JUST FIRST FILE
+  // Only handle the first file
   var file = files[0];
-  // SHOW PROGRESS MESSAGE
-  //document.getElementById("droplabel").innerHTML = "Processing " + file.name;
+  
+  // // Show progress message
+  // document.getElementById("droplabel").innerHTML = "Processing " + file.name;
 
   var reader = new FileReader();
-  // init the reader event handlers
-  reader.onload = handleReaderLoad;
-  // begin the read operation
+  // define handler to load when file read is complete.
+  reader.onload = fileReadComplete;
+  // begin read operation
   reader.readAsDataURL(file);
 };
 
 // HANDER THAT IS TRIGGERED WHEN DROPPED IMAGE FINISHES LOADING.
-function handleReaderLoad(evt) {
-  // GET IMG TAG REF
+function fileReadComplete(evt) {
+  // Get a ref to preview element
   var img = document.getElementById("preview");
-  // FILL SRC WITH IMG DATA
+  // Fill preview src with image data
   img.src = evt.target.result;
 
-  // GET IMAGE
-  img=document.getElementById("preview");
-  // DRAW AN IMAGE
+  // Now, get the image from the preview!
+  img = document.getElementById("preview");
+
+  // Draw the image
   draw_image_preview(img, img.width,img.height);
   draw_image_scaled(img, img.width,img.height);
+  
+  // analyze image
   analyzeImage();
 };
 
