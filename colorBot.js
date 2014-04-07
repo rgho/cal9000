@@ -1,7 +1,6 @@
 ;(function(k){k=k||window;var h=function(a,b){return this.convert(a,b)};h.prototype={_rgb:{r:{min:0,max:255},g:{min:0,max:255},b:{min:0,max:255}},_hsv:{h:{min:0,max:359},s:{min:0,max:100},v:{min:0,max:100}},_xyz:{x:{min:0,max:95.047},y:{min:0,max:100},z:{min:0,max:108.883}},_lab:{l:{min:0,max:100},a:{min:-128,max:127},b:{min:-128,max:127}},_white:{x:95.047,y:100,z:108.883},_human:{red:"FF0000",tan:"D2B48C",aqua:"00FFFF",blue:"0000FF",cyan:"00FFFF",gold:"FFD700",gray:"808080",lime:"00FF00",navy:"000080", peru:"CD853F",pink:"FFC0CB",plum:"DDA0DD",snow:"FFFAFA",teal:"008080",azure:"F0FFFF",beige:"F5F5DC",black:"000000",brown:"A52A2A",coral:"FF7F50",green:"008000",ivory:"FFFFF0",khaki:"F0E68C",linen:"FAF0E6",olive:"808000",wheat:"F5DEB3",white:"FFFFFF",bisque:"FFE4C4",indigo:"4B0082",maroon:"800000",orange:"FFA500",orchid:"DA70D6",purple:"800080",salmon:"FA8072",sienna:"A0522D",silver:"C0C0C0",tomato:"FF6347",violet:"EE82EE",yellow:"FFFF00",crimson:"DC143C",darkred:"8B0000",dimgray:"696969",fuchsia:"FF00FF", hotpink:"FF69B4",magenta:"FF00FF",oldlace:"FDF5E6",skyblue:"87CEEB",thistle:"D8BFD8",cornsilk:"FFF8DC",darkblue:"00008B",darkcyan:"008B8B",darkgray:"A9A9A9",deeppink:"FF1493",honeydew:"F0FFF0",lavender:"E6E6FA",moccasin:"FFE4B5",seagreen:"2E8B57",seashell:"FFF5EE",aliceblue:"F0F8FF",burlywood:"DEB887",cadetblue:"5F9EA0",chocolate:"D2691E",darkgreen:"006400",darkkhaki:"BDB76B",firebrick:"B22222",gainsboro:"DCDCDC",goldenrod:"DAA520",indianred:"CD5C5C",lawngreen:"7CFC00",lightblue:"ADD8E6",lightcyan:"E0FFFF", lightgrey:"D3D3D3",lightpink:"FFB6C1",limegreen:"32CD32",mintcream:"F5FFFA",mistyrose:"FFE4E1",olivedrab:"6B8E23",orangered:"FF4500",palegreen:"98FB98",peachpuff:"FFDAD9",rosybrown:"BC8F8F",royalblue:"4169E1",slateblue:"6A5ACD",slategray:"708090",steelblue:"4682B4",turquoise:"40E0D0",aquamarine:"7FFFD4",blueviolet:"8A2BE2",chartreuse:"7FFF00",darkorange:"FF8C00",darkorchid:"9932CC",darksalmon:"E9967A",darkviolet:"9400D3",dodgerblue:"1E90FF",ghostwhite:"F8F8FF",lightcoral:"F08080",lightgreen:"90EE90", mediumblue:"0000CD",papayawhip:"FFEFD5",powderblue:"B0E0E6",sandybrown:"F4A460",whitesmoke:"F5F5F5",floralwhite:"FFFAF0",forestgreen:"228B22",darkmagenta:"8B008B",deepskyblue:"00BFFF",navajowhite:"FFDEAD",yellowgreen:"9ACD32",greenyellow:"ADFF2F",lightsalmon:"FFA07A",lightyellow:"FFFFE0",saddlebrown:"8B4513",springgreen:"00FF7F",darkseagreen:"8FBC8F",antiquewhite:"FAEBD7",lemonchiffon:"FFFACD",lightskyblue:"87CEFA",mediumorchid:"BA55D3",mediumpurple:"9370D8",midnightblue:"191970",darkslateblue:"483D8B", darkslategray:"2F4F4F",darkturquoise:"00CED1",darkgoldenrod:"B8860B",lavenderblush:"FFF0F5",lightseagreen:"20B2AA",palegoldenrod:"EEE8AA",paleturquoise:"AFEEEE",palevioletred:"D87093",blanchedalmond:"FFEBCD",cornflowerblue:"6495ED",darkolivegreen:"556B2F",lightslategray:"778899",lightsteelblue:"B0C4DE",mediumseagreen:"3CB371",mediumslateblue:"7B68EE",mediumturquoise:"48D1CC",mediumvioletred:"C71585",mediumaquamarine:"66CDAA",mediumspringgreen:"00FA9A",lightgoldenrodyellow:"FAFAD2"},_round:function(a, b){var c=RegExp("^([-\\d]*)(\\.\\d{1,"+(b||3)+"})?.*");a=(a+"").replace(c,"$1$2");return a-=0},_hex2rgb:function(a){var b={r:0,g:0,b:0};3==a.length?(b.r=parseInt(a.substring(0,1)+a.substring(0,1),16),b.g=parseInt(a.substring(1,2)+a.substring(1,2),16),b.b=parseInt(a.substring(2,3)+a.substring(2,3),16)):(b.r=parseInt(a.substring(0,2),16),b.g=parseInt(a.substring(2,4),16),b.b=parseInt(a.substring(4,6),16));return b},_hex2hsv:function(a){var b=h.prototype;a=b._hex2rgb(a);return b._rgb2hsv(a)},_hex2lab:function(a){var b= h.prototype;a=b._hex2xyz(a);return b._xyz2lab(a)},_hex2xyz:function(a){var b=h.prototype;a=b._hex2rgb(a);return b._rgb2xyz(a)},_rgb2hsv:function(a){var b=a.r/255,c=a.g/255;a=a.b/255;var e=0,d=0,e=0,g={h:0,s:0,v:0};b>=c&&b>=c?(d=b,e=c>a?a:c):c>=a&&c>=b?(d=c,e=b>a?a:b):(d=a,e=c>b?b:c);g.v=d;g.s=d?(d-e)/d:0;g.s?(e=d-e,g.h=b==d?(c-a)/e:c==d?2+(a-b)/e:4+(b-c)/e,g.h=parseInt(60*g.h),0>g.v&&(g.v+=360)):g.h=0;g.s=parseInt(100*g.s);g.v=parseInt(100*g.v);return g},_rgb2lab:function(a){var b=h.prototype;a=b._rgb2xyz(a); return b._xyz2lab(a)},_rgb2xyz:function(a){var b="";a={r:a.r/255,g:a.g/255,b:a.b/255};var c=null;for(b in a)a[b]=0.04045<a[b]?Math.pow((a[b]+0.055)/1.055,2.4):a[b]/12.92,a[b]*=100;c={x:0.4124*a.r+0.3576*a.g+0.1805*a.b,y:0.2126*a.r+0.7152*a.g+0.0722*a.b,z:0.0193*a.r+0.1192*a.g+0.9505*a.b};for(b in c)c[b]=h.prototype._round(c[b]);return c},_rgb2hex:function(a){var b="",c={};c.r=a.r.toString(16);c.g=a.g.toString(16);c.b=a.b.toString(16);for(b in c)2>c[b].length&&(c[b]+=c[b]);return c.r+c.g+c.b},_hsv2rgb:function(a){var b= 0,c=0,e=0,d=0,g=0,e=a.h,g=a.s;a=a.v;var f={r:0,g:0,b:0};if(0==g)f.r=0==a?f.g=f.b=0:f.g=f.b=parseInt(255*a/100);else{360==e&&(e=0);e/=60;g/=100;a/=100;b=parseInt(e);c=e-b;e=a*(1-g);d=a*(1-g*c);g=a*(1-g*(1-c));switch(b){case 0:f.r=a;f.g=g;f.b=e;break;case 1:f.r=d;f.g=a;f.b=e;break;case 2:f.r=e;f.g=a;f.b=g;break;case 3:f.r=e;f.g=d;f.b=a;break;case 4:f.r=g;f.g=e;f.b=a;break;case 5:f.r=a,f.g=e,f.b=d}f.r=parseInt(255*f.r);f.g=parseInt(255*f.g);f.b=parseInt(255*f.b)}return f},_hsv2lab:function(a){var b= h.prototype;a=b._hsv2xyz(a);return b._xyz2lab(a)},_hsv2xyz:function(a){var b=h.prototype;a=b._hsv2rgb(a);return b._rgb2xyz(a)},_hsv2hex:function(a){var b=h.prototype;a=b._hsv2rgb(a);return b._rgb2hex(a)},_lab2rgb:function(a){var b=h.prototype;a=b._lab2xyz(a);return b._xyz2rgb(a)},_lab2hsv:function(a){var b=h.prototype;a=b._lab2rgb(a);return b._rgb2hsv(a)},_lab2xyz:function(a){var b="",c=0,e={},d=h.prototype,g=d._white;e.y=(a.l+16)/116;e.x=a.a/500+e.y;e.z=e.y-a.b/200;for(b in e)c=Math.pow(e[b],3), e[b]=0.008856<c?c:(e[b]-16/116)/7.787,e[b]=d._round(e[b]*g[b]);return{x:e.x,y:e.y,z:e.z}},_lab2hex:function(a){var b=h.prototype;a=b._lab2rgb(a);return b._rgb2hex(a)},_xyz2rgb:function(a){var b="",c=a.x/100,e=a.y/100;a=a.z/100;var d={};d.r=3.2406*c+-1.5372*e+-0.4986*a;d.g=-0.9689*c+1.8758*e+0.0415*a;d.b=0.0557*c+-0.204*e+1.057*a;for(b in d)d[b]=h.prototype._round(d[b]),0>d[b]&&(d[b]=0),d[b]=0.0031308<d[b]?1.055*Math.pow(d[b],1/2.4)-0.055:12.92*d[b],d[b]=Math.round(255*d[b]);return d},_xyz2hsv:function(a){var b= h.prototype;a=b._xyz2rgb(a);return b._rgb2hsv(a)},_xyz2lab:function(a){var b="",c={},e=h.prototype._white;for(b in a)c[b]=a[b]/e[b],c[b]=0.008856<c[b]?Math.pow(c[b],1/3):7.787*c[b]+16/116;return{l:116*c.y-16,a:500*(c.x-c.y),b:200*(c.y-c.z)}},_xyz2hex:function(a){var b=h.prototype;a=b._xyz2rgb(a);return b._rgb2hex(a)},type:function(a){var b="",c="";if("object"==typeof a){for(b in a)a[b]-=0;if(isNaN(a.r)&&isNaN(a.g))if(isNaN(a.h)&&isNaN(a.s))if(isNaN(a.x)&&isNaN(a.z)){if(!isNaN(a.l)||!isNaN(a.a))return"lab"; if(!isNaN(a.c)||!isNaN(a.m)||!isNaN(a.k))return"cmyk"}else return"xyz";else return"hsv";else return"rgb"}else if("number"==typeof a||"string"==typeof a)return c=a.substring(0,4),"rgb("==c||"rgba"==c?"css":"hex";return!1},validate:function(a,b){b=b||!1;var c=h.prototype,e=c.type(a),d="",g="",f=g=null;if(e){"css"==e?(f=c._rgb,e="rgb",g=a.replace(/rgb(a)?\(|\)/g,"").split(/,\s?/),a={r:g[0],g:g[1],b:g[2]}):f=c["_"+e];switch(e){case "css":case "rgb":case "hsv":case "lab":case "xyz":case "cmyk":for(d in f)!a[d]|| a[d]<f[d].min?a[d]=f[d].min:a[d]>f[d].max&&(a[d]="hsv"==e&&"h"==d?0:f[d].max);break;case "hex":(g=c._human[a.toLowerCase()])?a=g:(a=(""+a).toUpperCase().replace(/^#/g,"").replace(/[^A-F0-9]/g,"0"),d=a.length,6>d&&3<d?a+="000000".substring(d,6-d):6>d&&3>d?a+="000".substring(d,3-d):6<d&&(a=a.substring(0,6)))}return b?{type:e,raw:a}:a}return!1},convert:function(a,b){b=b||"rgb";var c="",e=h.prototype,d=e.validate(a,!0);return d&&(c="_"+d.type+"2"+b,e[c])?e[c](d.raw):!1},invert:function(a,b){b=b||"rgb"; var c="",e=h.prototype,d=null;if(d=e.validate(a,!0)){d=e["_"+d.type+"2rgb"](d.raw);for(c in d)d[c]=255-d[c];return"rgb"!=b?e["_rgb2"+b](d):d}return!1}};h.type=h.prototype.type;h.invert=h.prototype.invert;h.convert=h.prototype.convert;h.validate=h.prototype.validate;k.Color=h})(window);
 // ^ import color lib: https://github.com/Shushik/i-color
 
-
 // Get a reference to the dropbox and preview dom elements.
 var dropbox = document.getElementById("dropbox");
 
@@ -41,7 +40,7 @@ function drop(evt) {
   NProgress.start();
   // Extract files from the event
   var files = evt.dataTransfer.files;
-  // Call the handler iff 1 or more files dropped.
+  // Call the handler iff 1 or more files dropped
   if (files.length > 0) handleFiles(files);
 };
 
@@ -50,7 +49,7 @@ function handleFiles(files){
   // Only handle the first file
   var file = files[0];
   
-  // // Show progress message
+  // Show a progress message
   // document.getElementById("droplabel").innerHTML = "Processing " + file.name;
 
   var reader = new FileReader();
@@ -63,62 +62,48 @@ function handleFiles(files){
 // HANDER THAT IS TRIGGERED WHEN DROPPED IMAGE FINISHES LOADING.
 function fileReadComplete(evt) {
   // Get a ref to preview element
-  var img = document.getElementById("preview");
+  var preview = document.getElementById("preview");
   // Fill preview src with image data
-  img.src = evt.target.result;
+  preview.src = evt.target.result;
 
   // Now, get the image from the preview!
   img = document.getElementById("preview");
+  // we get dims for resizing to 250 max height or width
+  var scaledDimensions = scaledWidthHeight(250, img.width,img.height)
 
-  // Draw the image
-  draw_image_preview(img, img.width,img.height);
-  draw_image_scaled(img, img.width,img.height);
+  // We draw the image to a hidden canvas and a display canvas.
+  drawImageToDOM(img, "my-canvas", scaledDimensions.width, scaledDimensions.height);
+  drawImageToDOM(img, "my-hidden-canvas", scaledDimensions.width, scaledDimensions.height);
   
-  // analyze image
+  // Analyze image
   analyzeImage();
 };
 
 
-// DRAWS IMAGE ONTO A NEW CANVAS
-function draw_image_preview(image, width, height) {
-  var ratio = width / height;
-  if (width > height){
-    width = 250;
-    height = 250 / ratio;
+function scaledWidthHeight(maxWidthOrHeight, w, h) {
+  var result = {height:undefined, width:undefined};
+  var ratio = w / h;
+  if (w > h){
+    w = maxWidthOrHeight;
+    h = maxWidthOrHeight / ratio;
   } else {
-    height = 250;
-    width = 250 * ratio
+    h = maxWidthOrHeight;
+    w = maxWidthOrHeight * ratio
   }
+  result.height = h;
+  result.width = w;
+  return result;
+}
 
-  var my_canvas = document.getElementById("my-canvas");
+
+function drawImageToDOM(image, domElementName, width, height){
+  var my_canvas = document.getElementById(domElementName);
   my_canvas.height = height;
   my_canvas.width = width;
 
   var my_canvas_context = my_canvas.getContext("2d");
-  var image = document.getElementById("preview");
   my_canvas_context.drawImage(image,0,0,width,height);
-};
-
-// DRAWS SCALED IMAGE ONTO A hidden CANVAS, for analysis!
-function draw_image_scaled(image, width, height) {
-  var ratio = width / height;
-  if (width > height){
-    width = 70;
-    height = 70 / ratio
-  } else {
-    height = 70
-      width = 70 * ratio
-  }
-
-  var my_canvas = document.getElementById("my-hidden-canvas");
-  my_canvas.height = height;
-  my_canvas.width = width;
-
-  var my_canvas_context = my_canvas.getContext("2d");
-  var image = document.getElementById("preview");
-  //my_canvas_context(image,sx,sy,swidth,sheight,x,y,width,height);
-  my_canvas_context.drawImage(image,0,0,width,height);
-};
+}
 
 
 function textColorGivenBg(hex){
@@ -137,7 +122,6 @@ function brightnessScore(hex) {
 
 function analyzeImage(){
   var imageData = getPixelData();
-  //colorsBuckets(image_data);
 
   var colorCounts = {};
   //var colorSetLab = convertColorSetToLAB(colorPresets());
@@ -164,17 +148,16 @@ function analyzeImage(){
 
 };
 
-// GET PIXELS FROM CANVAS
 var getPixelData = function(){
+  // Gets pixel data from the hidden canvas element
   var my_canvas = document.getElementById("my-hidden-canvas");
   var my_canvas_context = my_canvas.getContext("2d");
-
-  var imgData=my_canvas_context.getImageData(0,0,my_canvas.width,my_canvas.height);
+  var imgData = my_canvas_context.getImageData(0,0,my_canvas.width,my_canvas.height);
   return imgData.data;
 };
 
-// CONVERTS DATASET OF HEX COLORS TO LAB
 var convertColorSetToLAB = function(colorSet){
+  // Converts a colorset from hex to lab
   var colorSetLab = {};
   for (var color in colorSet) {
     colorSetLab[color] = Color.convert(colorSet[color],'lab');
@@ -182,30 +165,24 @@ var convertColorSetToLAB = function(colorSet){
   return colorSetLab;
 };
 
-/// SAY STUFF
+
 
 var analyzer;
 var frequencyData;
-var shouldAnalyze = true;
 
 function playSound(soundURL){
   // http://stackoverflow.com/questions/10105063/how-to-play-a-notification-sound-on-websites 
   console.log('playing sound: ' + soundURL);
-  // test sound, no availability issues.
-  //soundURL = 'https://www.freesound.org/people/moca/sounds/47178/download/47178__moca__saxu.mp3'
   document.getElementById("sound").innerHTML = '<audio id="voice" autoplay="autoplay"><source src="' + soundURL + '" type="audio/mpeg" /><embed hidden="true" autostart="true" loop="false" src="' + soundURL + '" /></audio>';
-  //var audio = document.getElementById("voice");
 
+  
   var audioContext = new (window.AudioContext||window.webkitAudioContext)();
-  //var request = new XMLHttpRequest();
-    console.log('audioContext');
+  console.log('audioContext');
 
   var audioElement = document.getElementById("voice");
-      console.log('audioelement');
-
+  console.log('audioelement');
 
   analyzer = audioContext.createAnalyser();
-
   analyzer.fftSize = 64;
   frequencyData = new Uint8Array(analyzer.frequencyBinCount);
 
@@ -235,38 +212,32 @@ function analyze() {
 }
 
 function voiceLoaded(){
+  // When voice is loaded, end loading bar and show descriptions.
   NProgress.done();
-  shouldAnalyze = true;
   showDescriptionEffect(desc[0]);
 }
 
-
-
-
 var textToVoiceURL = function(desc){
-  // GOOGLE TEXT TO SPEECH ENDPOINT
-// http://translate.google.com/translate_tts?tl=en&q=Wow.%20What%20an%20incredible%20image!%20I%20see%20a%20lot%20of%20hot%20pink,%20tones%20of%20midnight%20blue!
-  // var soundURL = 'http://tts-api.com/tts.mp3?q=URLENCODEDTEXT';
+  // Alternate API: var soundURL = 'http://tts-api.com/tts.mp3?q=URLENCODEDTEXT';
   //http://www.voicerss.org/api/documentation.aspx
   var soundURL = 'http://api.voicerss.org/?key=fcde5c8f98c14007b442c9fd0a59aad4&src=URLENCODEDTEXT&hl=en-us&f=48khz_16bit_stereo'
-
-  //soundURL = 'http://tts-api.com/tts.mp3?q=Please%20enter%20some%20text'
   soundURL = soundURL.replace("URLENCODEDTEXT", encodeURIComponent(desc));
   return soundURL;
 }
 
 
-var mostSimilarColor = function(currentPixelLAB, colorSetLab){
-  var smallestDist = 10000; //sqrt(141072) = ?? 376// MAX POSSIBLE DISTANCE IN lab space = sqrt(2*(-128 - 128)^2 + (100-0)^2)
-  for (var color in colorSetLab) {
-    var checkedDist = perceptualColorDiff(currentPixelLAB, colorSetLab[color]);
-    if (checkedDist < smallestDist) {
-      smallestDist = checkedDist;
-      mostSimilar = color;
-    };
-  };
-  return mostSimilar;
-};
+// var mostSimilarColor = function(currentPixelLAB, colorSetLab){
+//   var smallestDist = 10000; //sqrt(141072) = ?? 376// MAX POSSIBLE DISTANCE IN lab space = sqrt(2*(-128 - 128)^2 + (100-0)^2)
+//   for (var color in colorSetLab) {
+//     var checkedDist = perceptualColorDiff(currentPixelLAB, colorSetLab[color]);
+//     if (checkedDist < smallestDist) {
+//       smallestDist = checkedDist;
+//       mostSimilar = color;
+//     };
+//   };
+//   return mostSimilar;
+// };
+
 
 var mostSimilarColorFast = function(currentPixelLAB, labColorSet){
   var smallestDist = 10000; //sqrt(141072) = ?? 376// MAX POSSIBLE DISTANCE IN lab space = sqrt(2*(-128 - 128)^2 + (100-0)^2)
