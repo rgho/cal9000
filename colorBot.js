@@ -142,7 +142,6 @@ function analyzeImage(){
   topCols = topColors(colorCounts);
   desc = makeDescription(topCols);
   voiceURL = textToVoiceURL(desc[1]);
-  //showDescription(desc[0]);
   document.getElementById('desc').innerHTML = ''; // CLEAR innerhtml
   playSound(voiceURL);
 
@@ -226,19 +225,6 @@ var textToVoiceURL = function(desc){
 }
 
 
-// var mostSimilarColor = function(currentPixelLAB, colorSetLab){
-//   var smallestDist = 10000; //sqrt(141072) = ?? 376// MAX POSSIBLE DISTANCE IN lab space = sqrt(2*(-128 - 128)^2 + (100-0)^2)
-//   for (var color in colorSetLab) {
-//     var checkedDist = perceptualColorDiff(currentPixelLAB, colorSetLab[color]);
-//     if (checkedDist < smallestDist) {
-//       smallestDist = checkedDist;
-//       mostSimilar = color;
-//     };
-//   };
-//   return mostSimilar;
-// };
-
-
 var mostSimilarColorFast = function(currentPixelLAB, labColorSet){
   var smallestDist = 10000; //sqrt(141072) = ?? 376// MAX POSSIBLE DISTANCE IN lab space = sqrt(2*(-128 - 128)^2 + (100-0)^2)
   //var mostSimilar = '';
@@ -281,13 +267,9 @@ function labColorSetPlacedInCubes(){
   for (var color in colorSetLab) {
     var thisLAB = {}
     thisLAB[color] = colorSetLab[color]
-      // ADD DESC TO COLOR
-      //thisLAB.desc = color;
-      var whichCube = cubeId(thisLAB[color], cubeEdgeLen);
+    var whichCube = cubeId(thisLAB[color], cubeEdgeLen);
     whichCube = labToString(whichCube);
-    // FORCE THE COORDINATES INTO A STRING SO WE CAN USE IT AS AN INDEX FOR THE ARRAY
-    //whichCube = whichCube.l + ','+ whichCube.a +',' + whichCube.b;
-    // CRAZY ONE LINER TO CHECK IF cubes[whichCube] obj exitst, if not create it.
+    // One liner to check if cubes[whichCube] obj exists, if not create it.
     cubes[whichCube] = ( typeof cubes[whichCube] != 'undefined' && cubes[whichCube] instanceof Array ) ? cubes[whichCube] : []
       cubes[whichCube].push(thisLAB);
   }
@@ -344,7 +326,6 @@ function allNearbyColors(lab,labColorSet){
         colorName = keys[0]
           nearbyColorSetLab[colorName] = colorsInThisCube[index][colorName]
       }
-
     } 		
   }
 
